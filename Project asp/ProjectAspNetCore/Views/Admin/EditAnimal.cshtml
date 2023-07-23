@@ -1,0 +1,11 @@
+﻿@model PetShopModels.Animal
+
+@{
+    ViewBag.Title = "EditAnimal";
+}
+
+<h1>EditAnimal</h1>
+<form id="NewAnimalForm" method="post" asp-action="EditAnimal" asp-controller="Admin" class="needs-validation" enctype="multipart/form-data">
+    <partial name="_AddOrEditPartial" model="Model" />
+</form>
+

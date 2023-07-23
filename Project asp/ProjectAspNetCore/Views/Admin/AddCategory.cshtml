@@ -1,0 +1,32 @@
+﻿@model PetShopModels.Animal
+
+@{
+    ViewBag.Title = "AddCategory";
+}
+
+<h1>AddNewCategory</h1>
+
+
+
+<section class="vh-100">
+    <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-8 col-lg-6 col-xl-8">
+                <div class="card shadow-2-strong" style="border-radius: 1rem;">
+                    <div class="card-body p-5 text-center">
+                        <div class="text-success">
+                            @TempData["succeededMessages"]
+                            </div>
+
+                        <form action="AddCategory" method="post">
+                            <label for="newCategory">Add New Category:</label>
+                            <input type="text" id="newCategory" name="newCategoryName" class="form-control" placeholder="Enter a new category" required />
+                            <button type="submit" class="btn btn-success col-md-4">Add new category</button>
+                        </form>
+                    </div>
+                        <partial name="_backToAdminCatalogPartial" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

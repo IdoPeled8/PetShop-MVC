@@ -1,0 +1,15 @@
+﻿global using Microsoft.AspNetCore.Identity;
+global using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.AspNetCore.Mvc.Rendering;
+global using Microsoft.EntityFrameworkCore;
+global using Serilog;
+global using Microsoft.AspNetCore.SignalR;
+global using ProjectAspNetCore.Hubs;
+global using PetShopLogic;
+global using PetShopModels;
+global using ProjectAspNetCore.Helpers;
+global using Microsoft.AspNetCore.Authorization;
+global using System.Collections.ObjectModel;
+global using PetShopDAL.Data;
+global using PetShopDAL.Repository;

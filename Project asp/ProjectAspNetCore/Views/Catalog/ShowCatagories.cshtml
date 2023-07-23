@@ -1,0 +1,9 @@
+﻿
+@{
+    ViewBag.Title = "ShowCatagories";
+}
+@section Header{
+<h4>Welcome to Catalog</h4>
+}
+
+@await Component.InvokeAsync("CatalogAdmin",ViewBag.PageAndId);

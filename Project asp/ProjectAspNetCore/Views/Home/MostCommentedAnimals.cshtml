@@ -1,0 +1,33 @@
+﻿@model IEnumerable<PetShopModels.Animal>
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<link href="~/styles/animalCard.css" rel="stylesheet" />
+
+@{
+    ViewBag.Title = "MostCommentedAnimals";
+}
+
+@section Header{
+
+    <h5>two Most Commented Animals</h5>
+}
+
+<div class="text-danger">
+    @ViewBag.AccessDenied
+</div>
+<div class="card-container">
+    @foreach (var animal in Model)
+    {
+        <div class="card " style="width: 20rem;">
+            <img src="~/Pics/@animal.ImageName" class="card-img" alt="Animal Image" id="animalImage">
+            <div class="card-body">
+                <h5 class="card-title">Name: @animal.Name</h5>
+                <p class="card-text">Description: @animal.Description</p>
+                <p class="card-text"><small class="text-muted">Number of comments: @animal.Comments!.Count</small></p>
+                <a href="@Url.Action("AnimalInformation", "Animal", new { id = animal.AnimalId })" class="btn btn-outline-info">Full Details</a>
+            </div>
+        </div>
+    }
+</div>
+

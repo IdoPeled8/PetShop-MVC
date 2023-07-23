@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <script src="~/libraries/jquery-3.3.1.js"></script>
+    <script src="~/libraries/jquery.validate.min-1.17.0.js"></script>
+    <script src="~/libraries/jquery.validate.unobtrusive.min-3.2.10.js"></script>
+    <script src="~/libraries/signalr.js"></script>
+    <script src="~/scripts/updateAnimalSignalR.js"></script>
+
+    <link href="~/styles/bootstrap.css" rel="stylesheet" />
+    <link href="~/styles/site.css" rel="stylesheet" />
+</head>
+<body>
+   
+    <header>
+        <!-- Common header content -->
+        @RenderSection("Header", required: false)
+    </header>
+   
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" asp-action="MostCommentedAnimals" asp-controller="Home">
+            <img src="~/Pics/PetShopImage.jpeg" width="30" height="30" class="d-inline-block align-top" alt="">Ido Pet Shop
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="@Url.Action("MostCommentedAnimals","Home")">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("ShowCatagories","Catalog")">Catalog</a>
+                </li>
+                @if (User.IsInRole("Admin"))
+                {
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="@Url.Action("AdminCatalog","Admin")">Admin</a>
+                    </li>
+                }
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("Logout","Account")">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div>
+        @RenderBody()
+    </div>
+
+    <div>
+        @RenderSection("Scripts", required: false)
+    </div>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>

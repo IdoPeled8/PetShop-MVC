@@ -1,0 +1,74 @@
+﻿@model PetShopModels.Animal
+@{
+    ViewBag.Title = "AnimalInformation";
+}
+
+
+@section Header{
+    <h4>Welcome to Animal</h4>
+}
+
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th style="width: 20%">Photo</th>
+            <th style="width: 10%">Name</th>
+            <th style="width: 5%">Age</th>
+            <th style="width: 10%">Category</th>
+            <th style="width: 25%">Description</th>
+            <th style="width: 30%">Comments</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>   <img src="~/Pics/@Model.ImageName" class="img-fluid" alt="Animal Image" width="200" height="200">
+            <td><strong>@Model.Name</strong></td>
+            <td><strong>@Model.Age</strong></td>
+            <td><strong>@Model.Category!.Name</strong></td>
+            <td><strong>@Model.Description</strong></td>
+            <td>
+                    @if (Model.Comments!.Any())
+                    {
+                    <ul>
+                            @foreach (var comment in Model.Comments!)
+                            {
+                            <li>@comment.CommentText
+
+                                    @if (User.IsInRole("Admin"))
+                                    {
+                                        
+                                    <form class="d-inline" method="post" action="@Url.Action("RemoveComment", "Animal")">
+                                <input type="hidden" name="commentId" value="@comment.CommentId" />
+                                <input type="hidden" name="animalId" value="@Model.AnimalId" />
+                                <button type="submit" class="btn btn-link btn-sm">Remove Comment</button>
+                            </form>
+                                    }
+                            </li>
+                            }
+                    </ul>
+                    }
+                    else
+                    {
+                    <p>No comments available.</p>
+                    }
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+@if (User.Identity!.IsAuthenticated)
+{
+    <form class="col-md-5" method="post" action="@Url.Action("AddComment", "Animal")">
+        <input type="hidden" name="animalId" value="@Model.AnimalId" />
+        <div>
+            <textarea name="commentText" class="form-control" rows="3" placeholder="Add new comment" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Add Comment</button>
+    </form>
+}
+else
+{
+    <a>To add comment please Login or Signup</a>
+    <a asp-action="Login" asp-controller="Account" class="btn btn-primary">Login</a>
+}
+

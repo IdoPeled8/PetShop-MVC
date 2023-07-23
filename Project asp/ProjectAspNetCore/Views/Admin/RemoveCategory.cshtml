@@ -1,0 +1,57 @@
+﻿@model PetShopModels.Animal
+
+@{
+    ViewBag.Title = "RemoveCategory";
+}
+
+
+
+
+
+
+<section class="vh-100">
+    <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-8 col-lg-6 col-xl-8">
+                <div class="card shadow-2-strong" style="border-radius: 1rem;">
+                    <div class="card-body p-5 text-center">
+                        <div class="text-success">
+                            @TempData["succeededMessages"]
+                        </div>
+
+                        <form action="RemoveCategory" method="post">
+                            <label asp-for="Category">Remove Category</label>
+                            <select asp-for="CategoryId" asp-items="ViewBag.Categories" class="form-control">
+                                <option value="">Choose A Category to Remove</option>
+                            </select>
+                            <a class="small text-muted">You can remove only empty Categories</a>
+                            <div class="text-danger">
+                                <span asp-validation-for="CategoryId"></span>
+                                @TempData["categoryHaveAnimalMsg"]
+                            </div>
+                            <button type="submit" class="btn btn-danger col-md-4">Remove Category</button>
+                        </form>
+                    </div>
+                        <partial name="_backToAdminCatalogPartial" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+@*
+
+<section class="vh-100">
+    <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-8 col-lg-6 col-xl-8">
+                <div class="card shadow-2-strong" style="border-radius: 1rem;">
+                    <div class="card-body p-5 text-center">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+*@

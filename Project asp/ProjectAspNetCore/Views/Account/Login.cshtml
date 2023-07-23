@@ -1,0 +1,58 @@
+﻿@model PetShopModels.LoginUserModel
+
+@{
+    ViewBag.Title = "Login";
+}
+
+
+@section Header{
+    <h3>Header</h3>
+}
+
+<section class="vh-100">
+    <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                <div class="card shadow-2-strong" style="border-radius: 1rem;">
+                    <div class="card-body p-5 text-center">
+
+                        <form method="post" asp-action="Login">
+
+                            <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Welcome To Ido pet shop</h5>
+                            <div class="text-success">@TempData["RegisterSucceeded"]</div>
+
+                            <div class="form-outline mb-4">
+                                <input asp-for="UserName" placeholder="User Name" class="form-control form-control-lg" />
+                                <span asp-validation-for="UserName" class="text-danger"></span>
+                            </div>
+                            <div class="form-outline mb-4">
+                                <input asp-for="Password" id="passwordInput" type="password" placeholder="Password" class="form-control form-control-lg" />
+                                <span asp-validation-for="Password" class="text-danger"></span>
+                                @await Component.InvokeAsync("LoginRegister")
+                            </div>
+
+                            <div class="pt-1 mb-4">
+                                <button class="btn btn-success btn-lg btn-block" type="submit">Login</button>
+                            </div>
+
+                            <p class="mb-5 pb-lg-2" style="color: #393f81;">
+                                Don't have an account?
+                                <br>
+                                <a class="btn btn-secondary" asp-action="Register">Register here:</a>
+                            </p>
+                        </form>
+                        <form method="post" asp-action="MostCommentedAnimals" asp-controller="Home">
+                            <div class="pt-1 mb-4">
+                                <button class="btn btn-Secondary btn-lg" type="submit">Login as Guest</button>
+                            </div>
+                        </form>
+
+                        <a href="#!" class="small text-muted">Terms of use. (put some stuff or delete)</a>
+                        <a href="#!" class="small text-muted">Privacy policy</a>
+                        <hr class="my-4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

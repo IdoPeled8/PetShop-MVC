@@ -1,0 +1,120 @@
+﻿@{
+    ViewBag.Title = "AdminCatalog";
+}
+
+
+@section Header{
+    <h3>all animals data</h3>
+}
+
+
+
+<!-- Chat Container (Initially Hidden) -->
+<div class="d-none" id="chatContainer">
+    <div class="d-flex justify-content-center">
+        <div class="p-2">
+            @*<label for="adminChat">admins chat</label>*@
+            <input name="adminChat" type="text" id="message" />
+            <input type="button" class="btn btn-primary" id="all" value="Send message" />
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+        <div class="scrollable-whiteboard">
+            <div id="chatLog">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="d-flex justify-content-center" >
+    <div class="p-2">
+        <button type="button" id="openChat" class="btn btn-primary mr-2">                                                   <strong>Open admins chat</strong></button>
+        <a class="btn btn-success  mx-2" href="@Url.Action("ChangeDataForm", "Admin", new { actionType = "addAnimal" })">   <strong>Add new animal</strong></a>
+        <a class="btn btn-success mx-2" href="@Url.Action("ChangeDataForm", "Admin", new { actionType = "addCategory" })">  <strong>Add new category</strong></a>
+        <a class="btn btn-danger ml-2" href="@Url.Action("ChangeDataForm", "Admin", new { actionType = "removeCategory" })"><strong>Remove Category</strong></a>
+    </div>
+</div>
+
+<style>
+    /* Add a fixed height and set overflow-y to auto to create a scrollable whiteboard */
+    #chatLog {
+        background-color: wheat;
+        height: 200px; /* Adjust the height as needed */
+        width: 620px;
+        overflow-y: auto;
+        border: 5px solid #ccc; /* Optional: Add a border for a cleaner look */
+        padding: 5px; /* Optional: Add some padding for better visual appearance */
+    }
+
+    #message {
+        width: 500px;
+    }
+
+</style>
+
+@await Component.InvokeAsync("CatalogAdmin",ViewBag.PageAndId)
+
+<script>
+    var connection = new signalR.HubConnectionBuilder()
+        .withUrl("/chathub")
+        .build();
+
+    connection.on("NewMessage", (userName, message, sendTime) => {
+        $("#chatLog").html($("#chatLog").html() + sendTime + " - " + userName + ": " + message + "<br/>");
+    });
+
+    connection.start().catch(err => console.error(err.toString()));
+
+    $("#all").click(function () {
+        var userName = '@ViewBag.user';
+        var message = $("#message").val();
+        var sendTime = ''
+        connection.invoke("MessageAll", userName, message,sendTime);
+    });
+
+
+    document.getElementById("categoryDropdown").addEventListener("change", function () {
+        document.getElementById("filterForm").submit();
+
+
+    });
+
+
+    //Happens only when i join the page and only then uses the collection
+    connection.on("ChatHistory", function (chatHistory) {
+        // Loop through the chatHistory array and add each message to the chat log
+        for (let i = 0; i < chatHistory.length; i++) {
+            $("#chatLog").append("<div>" + chatHistory[i] + "</div>");
+        }
+    });
+
+    // Wait for the document to be ready
+    $(document).ready(function () {
+        // Set up click event for the toggle button
+        $("#openChat").click(function () {
+            // Toggle the visibility of the chat container
+            $("#chatContainer").toggleClass("d-none");
+        });
+    });
+
+    
+
+</script>
+
+@*
+
+<div class="d-flex justify-content-center">
+    <div id="chatInputAndButton">
+        <label for="adminChat">admins chat</label>
+        <input name="adminChat" type="text" id="message" />
+        <input  type="button" id="all" value="Send To All" />
+    </div>
+    <div >
+        <a class="btn btn-success  mr-2" href="@Url.Action("ChangeDataForm", "Admin", new { actionType = "addAnimal" })"><strong>Add new animal</strong></a>
+        <a class="btn btn-success mx-2" href="@Url.Action("ChangeDataForm", "Admin", new { actionType = "addCategory" })"><strong>Add new category</strong></a>
+        <a class="btn btn-danger ml-2" href="@Url.Action("ChangeDataForm", "Admin", new { actionType = "removeCategory" })"><strong>Remove Category</strong></a>
+    </div>
+    <div id="chatLog" class="scrollable-whiteboard">
+    </div>
+</div>*@

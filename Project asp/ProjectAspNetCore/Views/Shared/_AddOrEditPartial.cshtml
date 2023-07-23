@@ -1,0 +1,86 @@
+﻿@model PetShopModels.Animal
+
+<section class="vh-100">
+    <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-8 col-lg-6 col-xl-8">
+                <div class="card shadow-2-strong" style="border-radius: 1rem;">
+                    <div class="card-body p-5 text-center">
+
+                        <div class="text-success">
+                            @TempData["succeededMessages"]
+                        </div>
+                        <div class="text-danger">
+                            @TempData["PhotoIsNull"]
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-4">
+                                <label asp-for="Name"></label>
+                                <input asp-for="Name" class="form-control" placeholder="Name" />
+                                <span asp-validation-for="Name" class="text-danger"></span>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label asp-for="Age"></label>
+                                <input asp-for="Age" class="form-control" placeholder="Age" />
+                                <span asp-validation-for="Age" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group col-md-4">
+                                <label asp-for="Category"></label>
+                                <select asp-for="CategoryId" asp-items="ViewBag.Categories" class="form-control">
+                                    <option value="">Choose A Category</option>
+                                </select>
+                                <span asp-validation-for="CategoryId" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group col-md-12 ">
+                                <label asp-for="Description"></label>
+                                <input asp-for="Description" class="form-control" placeholder="add some description" />
+                                <span asp-validation-for="Description" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group col-md-6">
+                                <label class="custom-file-label" for="imageInput">Serch For Image</label>
+                                <input type="file" class="custom-file-input" id="imageInput" name="imageFile" >
+                                <input asp-for="ImageName" type="hidden" id="imageName" class="form-control">
+                                <span asp-validation-for="ImageName" class="text-danger"></span>
+                                @if (!string.IsNullOrEmpty(Model.ImageName))
+                                {
+                                    <label asp-for="ImageName" class="text-primary">Current Image:</label>
+                                    <img src="~/Pics/@Model.ImageName" class="img-fluid" alt="Animal Image" width="150" height="150">
+                                }
+                            </div>
+                            <input type="hidden" name="actionType" class="form-control" value="@ViewBag.actionType">
+                            <input type="hidden" asp-for="AnimalId" />
+                            <input type="hidden" asp-for="Comments" />
+                            <div class="form-group col-md-6">
+                                <button type="submit" class="btn btn-success mr-3" style="width:150px">Submit</button>
+                            <partial name="_backToAdminCatalogPartial"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script>
+    document.getElementById("imageInput").addEventListener("change", function () {
+        var fileName = this.files[0].name;
+        var label = document.querySelector(".custom-file-label");
+        label.textContent = fileName;
+        document.getElementById("imageName").value = fileName;
+    });
+
+    // if i come from edit and the name exists - put the name in the value
+    var existingImageName = "@Model.ImageName";
+    if (existingImageName) {
+        var label = document.querySelector(".custom-file-label");
+        label.textContent = existingImageName;
+        document.getElementById("imageName").value = existingImageName;
+    }
+</script>
+
+
