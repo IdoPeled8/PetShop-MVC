@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p7aqXJQw6I7oRc1u/WytRLND9KLd3du4YwDl2QjgnbIg8Bcr8ZXQsGsD3pHv+f7KtpymXsPswHrx2oc+oaGf4A==",
+  "dgSpecHash": "YAZ9TkO421Qz73i9nU0UeslGy64xaEXptCy6yUIBi9Pul+N8MLdMT4h8YwYDSOdNHGdsspMO9oTQKK31TtJYoA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\PetShopDAL\\PetShopDAL.csproj",
+  "projectFilePath": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\PetShopDAL\\PetShopDAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\idop9\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.8\\microsoft.aspnetcore.cryptography.internal.7.0.8.nupkg.sha512",
     "C:\\Users\\idop9\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.8\\microsoft.aspnetcore.cryptography.keyderivation.7.0.8.nupkg.sha512",

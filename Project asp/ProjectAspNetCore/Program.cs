@@ -58,23 +58,17 @@ app.MapHub<ChatHub>("/chathub");
 app.Run();
 
 //in the middle of adding users to comments not working well now
-//add time and date to admin chat
 // add all chat??
 //try to use signalR for updating animals
 //add validation for empty messages in the admins chat
 
 //||simple bugs||
 //if photo file is not photo it dosent send validation message its just restart the page and the same if photo not good
-
 //when submit new animal without image not sending error msg
 //when photo not good need to send error msg
 // photo msg still not working good
 
-//add back buttons to all the forms
-
 // make header look better
-
-// save to zip before any major change
 
 // use services instead of actionType? - learn again about services
 //use web api for the not adding photo refresh? or js

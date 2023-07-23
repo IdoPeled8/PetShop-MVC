@@ -14561,11 +14561,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore.Test\\ProjectAspNetCore.Test.csproj",
+      "projectUniqueName": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore.Test\\ProjectAspNetCore.Test.csproj",
       "projectName": "ProjectAspNetCore.Test",
-      "projectPath": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore.Test\\ProjectAspNetCore.Test.csproj",
+      "projectPath": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore.Test\\ProjectAspNetCore.Test.csproj",
       "packagesPath": "C:\\Users\\idop9\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore.Test\\obj\\",
+      "outputPath": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -14586,8 +14586,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\ProjectAspNetCore.csproj": {
-              "projectPath": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\ProjectAspNetCore.csproj"
+            "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\ProjectAspNetCore.csproj": {
+              "projectPath": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\ProjectAspNetCore.csproj"
             }
           }
         }

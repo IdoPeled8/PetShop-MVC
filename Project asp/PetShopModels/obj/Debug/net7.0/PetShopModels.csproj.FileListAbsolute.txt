@@ -22,3 +22,15 @@ C:\Users\idop9\OneDrive\Desktop\Full Course Sela\ASP,net\Project\Project asp\Pet
 C:\Users\idop9\OneDrive\Desktop\Full Course Sela\ASP,net\Project\Project asp\PetShopModels\obj\Debug\net7.0\refint\PetShopModels.dll
 C:\Users\idop9\OneDrive\Desktop\Full Course Sela\ASP,net\Project\Project asp\PetShopModels\obj\Debug\net7.0\PetShopModels.pdb
 C:\Users\idop9\OneDrive\Desktop\Full Course Sela\ASP,net\Project\Project asp\PetShopModels\obj\Debug\net7.0\ref\PetShopModels.dll
+C:\Users\idop9\OneDrive\Desktop\Full Course Sela\ASP,net\Project\PetShop-MVC\Project asp\PetShopModels\bin\Debug\net7.0\PetShopModels.deps.json
+C:\Users\idop9\OneDrive\Desktop\Full Course Sela\ASP,net\Project\PetShop-MVC\Project asp\PetShopModels\bin\Debug\net7.0\PetShopModels.dll
+C:\Users\idop9\OneDrive\Desktop\Full Course Sela\ASP,net\Project\PetShop-MVC\Project asp\PetShopModels\bin\Debug\net7.0\PetShopModels.pdb
+C:\Users\idop9\OneDrive\Desktop\Full Course Sela\ASP,net\Project\PetShop-MVC\Project asp\PetShopModels\obj\Debug\net7.0\PetShopModels.csproj.AssemblyReference.cache
+C:\Users\idop9\OneDrive\Desktop\Full Course Sela\ASP,net\Project\PetShop-MVC\Project asp\PetShopModels\obj\Debug\net7.0\PetShopModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\idop9\OneDrive\Desktop\Full Course Sela\ASP,net\Project\PetShop-MVC\Project asp\PetShopModels\obj\Debug\net7.0\PetShopModels.AssemblyInfoInputs.cache
+C:\Users\idop9\OneDrive\Desktop\Full Course Sela\ASP,net\Project\PetShop-MVC\Project asp\PetShopModels\obj\Debug\net7.0\PetShopModels.AssemblyInfo.cs
+C:\Users\idop9\OneDrive\Desktop\Full Course Sela\ASP,net\Project\PetShop-MVC\Project asp\PetShopModels\obj\Debug\net7.0\PetShopModels.csproj.CoreCompileInputs.cache
+C:\Users\idop9\OneDrive\Desktop\Full Course Sela\ASP,net\Project\PetShop-MVC\Project asp\PetShopModels\obj\Debug\net7.0\PetShopModels.dll
+C:\Users\idop9\OneDrive\Desktop\Full Course Sela\ASP,net\Project\PetShop-MVC\Project asp\PetShopModels\obj\Debug\net7.0\refint\PetShopModels.dll
+C:\Users\idop9\OneDrive\Desktop\Full Course Sela\ASP,net\Project\PetShop-MVC\Project asp\PetShopModels\obj\Debug\net7.0\PetShopModels.pdb
+C:\Users\idop9\OneDrive\Desktop\Full Course Sela\ASP,net\Project\PetShop-MVC\Project asp\PetShopModels\obj\Debug\net7.0\ref\PetShopModels.dll

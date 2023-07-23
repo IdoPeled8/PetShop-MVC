@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "INR2F9LwTb7umlRqj5iMWX3RsmB3d3wclrzfabybhc4=",
+  "Hash": "iTvaZK5PatXE1hOZi456KvjB1L8i6wLL2rrA1AXoTSQ=",
   "Source": "ProjectAspNetCore",
   "BasePath": "_content/ProjectAspNetCore",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "ProjectAspNetCore\\wwwroot",
       "Source": "ProjectAspNetCore",
-      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\",
       "BasePath": "_content/ProjectAspNetCore",
       "Pattern": "**"
     }
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "C:\\Users\\idop9\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.8\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\libraries\\jquery.validate.min-1.17.0.js",
+      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\libraries\\jquery.validate.min-1.17.0.js",
       "SourceId": "ProjectAspNetCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\",
       "BasePath": "_content/ProjectAspNetCore",
       "RelativePath": "libraries/jquery.validate.min-1.17.0.js",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\libraries\\jquery.validate.min-1.17.0.js"
     },
     {
-      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\libraries\\jquery.validate.unobtrusive.min-3.2.10.js",
+      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\libraries\\jquery.validate.unobtrusive.min-3.2.10.js",
       "SourceId": "ProjectAspNetCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\",
       "BasePath": "_content/ProjectAspNetCore",
       "RelativePath": "libraries/jquery.validate.unobtrusive.min-3.2.10.js",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\libraries\\jquery.validate.unobtrusive.min-3.2.10.js"
     },
     {
-      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\libraries\\jquery-3.3.1.js",
+      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\libraries\\jquery-3.3.1.js",
       "SourceId": "ProjectAspNetCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\",
       "BasePath": "_content/ProjectAspNetCore",
       "RelativePath": "libraries/jquery-3.3.1.js",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\libraries\\jquery-3.3.1.js"
     },
     {
-      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\libraries\\signalr.js",
+      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\libraries\\signalr.js",
       "SourceId": "ProjectAspNetCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\",
       "BasePath": "_content/ProjectAspNetCore",
       "RelativePath": "libraries/signalr.js",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\libraries\\signalr.js"
     },
     {
-      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\22.jpg",
+      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\22.jpg",
       "SourceId": "ProjectAspNetCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\",
       "BasePath": "_content/ProjectAspNetCore",
       "RelativePath": "Pics/22.jpg",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\Pics\\22.jpg"
     },
     {
-      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\33.jpg",
+      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\33.jpg",
       "SourceId": "ProjectAspNetCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\",
       "BasePath": "_content/ProjectAspNetCore",
       "RelativePath": "Pics/33.jpg",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\Pics\\33.jpg"
     },
     {
-      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\aaa.jpg",
+      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\aaa.jpg",
       "SourceId": "ProjectAspNetCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\",
       "BasePath": "_content/ProjectAspNetCore",
       "RelativePath": "Pics/aaa.jpg",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\Pics\\aaa.jpg"
     },
     {
-      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\aaaaa.jpeg",
+      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\aaaaa.jpeg",
       "SourceId": "ProjectAspNetCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\",
       "BasePath": "_content/ProjectAspNetCore",
       "RelativePath": "Pics/aaaaa.jpeg",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\Pics\\aaaaa.jpeg"
     },
     {
-      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\aadd.jpg",
+      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\aadd.jpg",
       "SourceId": "ProjectAspNetCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\",
       "BasePath": "_content/ProjectAspNetCore",
       "RelativePath": "Pics/aadd.jpg",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\Pics\\aadd.jpg"
     },
     {
-      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\abc.jpeg",
+      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\abc.jpeg",
       "SourceId": "ProjectAspNetCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\",
       "BasePath": "_content/ProjectAspNetCore",
       "RelativePath": "Pics/abc.jpeg",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\Pics\\abc.jpeg"
     },
     {
-      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\BeardedDragon.jpeg",
+      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\BeardedDragon.jpeg",
       "SourceId": "ProjectAspNetCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\",
       "BasePath": "_content/ProjectAspNetCore",
       "RelativePath": "Pics/BeardedDragon.jpeg",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\Pics\\BeardedDragon.jpeg"
     },
     {
-      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\Betta Fish.jpeg",
+      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\Betta Fish.jpeg",
       "SourceId": "ProjectAspNetCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\",
       "BasePath": "_content/ProjectAspNetCore",
       "RelativePath": "Pics/Betta Fish.jpeg",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\Pics\\Betta Fish.jpeg"
     },
     {
-      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\BettaFish.jpeg",
+      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\BettaFish.jpeg",
       "SourceId": "ProjectAspNetCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\",
       "BasePath": "_content/ProjectAspNetCore",
       "RelativePath": "Pics/BettaFish.jpeg",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\Pics\\BettaFish.jpeg"
     },
     {
-      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\Cockatiel.jpeg",
+      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\Cockatiel.jpeg",
       "SourceId": "ProjectAspNetCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\",
       "BasePath": "_content/ProjectAspNetCore",
       "RelativePath": "Pics/Cockatiel.jpeg",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\Pics\\Cockatiel.jpeg"
     },
     {
-      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\GermanShepherd.jpeg",
+      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\GermanShepherd.jpeg",
       "SourceId": "ProjectAspNetCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\",
       "BasePath": "_content/ProjectAspNetCore",
       "RelativePath": "Pics/GermanShepherd.jpeg",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\Pics\\GermanShepherd.jpeg"
     },
     {
-      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\Goldfish.jpeg",
+      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\Goldfish.jpeg",
       "SourceId": "ProjectAspNetCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\",
       "BasePath": "_content/ProjectAspNetCore",
       "RelativePath": "Pics/Goldfish.jpeg",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\Pics\\Goldfish.jpeg"
     },
     {
-      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\ido.jpg",
+      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\ido.jpg",
       "SourceId": "ProjectAspNetCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\",
       "BasePath": "_content/ProjectAspNetCore",
       "RelativePath": "Pics/ido.jpg",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\Pics\\ido.jpg"
     },
     {
-      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\lavrador.jpeg",
+      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\lavrador.jpeg",
       "SourceId": "ProjectAspNetCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\",
       "BasePath": "_content/ProjectAspNetCore",
       "RelativePath": "Pics/lavrador.jpeg",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\Pics\\lavrador.jpeg"
     },
     {
-      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\LeopardGecko.jpeg",
+      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\LeopardGecko.jpeg",
       "SourceId": "ProjectAspNetCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\",
       "BasePath": "_content/ProjectAspNetCore",
       "RelativePath": "Pics/LeopardGecko.jpeg",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\Pics\\LeopardGecko.jpeg"
     },
     {
-      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\Parakeet.jpeg",
+      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\Parakeet.jpeg",
       "SourceId": "ProjectAspNetCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\",
       "BasePath": "_content/ProjectAspNetCore",
       "RelativePath": "Pics/Parakeet.jpeg",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\Pics\\Parakeet.jpeg"
     },
     {
-      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\Paraket.jpeg",
+      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\Paraket.jpeg",
       "SourceId": "ProjectAspNetCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\",
       "BasePath": "_content/ProjectAspNetCore",
       "RelativePath": "Pics/Paraket.jpeg",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\Pics\\Paraket.jpeg"
     },
     {
-      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\PersianCat.jpeg",
+      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\PersianCat.jpeg",
       "SourceId": "ProjectAspNetCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\",
       "BasePath": "_content/ProjectAspNetCore",
       "RelativePath": "Pics/PersianCat.jpeg",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\Pics\\PersianCat.jpeg"
     },
     {
-      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\PetShopImage.jpeg",
+      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\PetShopImage.jpeg",
       "SourceId": "ProjectAspNetCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\",
       "BasePath": "_content/ProjectAspNetCore",
       "RelativePath": "Pics/PetShopImage.jpeg",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\Pics\\PetShopImage.jpeg"
     },
     {
-      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\SiameseCat.jpeg",
+      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\SiameseCat.jpeg",
       "SourceId": "ProjectAspNetCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\",
       "BasePath": "_content/ProjectAspNetCore",
       "RelativePath": "Pics/SiameseCat.jpeg",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\Pics\\SiameseCat.jpeg"
     },
     {
-      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\thisisMe.jpg",
+      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\thisisMe.jpg",
       "SourceId": "ProjectAspNetCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\",
       "BasePath": "_content/ProjectAspNetCore",
       "RelativePath": "Pics/thisisMe.jpg",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\Pics\\thisisMe.jpg"
     },
     {
-      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\scripts\\chat.js",
+      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\scripts\\chat.js",
       "SourceId": "ProjectAspNetCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\",
       "BasePath": "_content/ProjectAspNetCore",
       "RelativePath": "scripts/chat.js",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\scripts\\chat.js"
     },
     {
-      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\scripts\\updateAnimalSignalR.js",
+      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\scripts\\updateAnimalSignalR.js",
       "SourceId": "ProjectAspNetCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\",
       "BasePath": "_content/ProjectAspNetCore",
       "RelativePath": "scripts/updateAnimalSignalR.js",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\scripts\\updateAnimalSignalR.js"
     },
     {
-      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\styles\\animalCard.css",
+      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\styles\\animalCard.css",
       "SourceId": "ProjectAspNetCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\",
       "BasePath": "_content/ProjectAspNetCore",
       "RelativePath": "styles/animalCard.css",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\styles\\animalCard.css"
     },
     {
-      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\styles\\bootstrap.css",
+      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\styles\\bootstrap.css",
       "SourceId": "ProjectAspNetCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\",
       "BasePath": "_content/ProjectAspNetCore",
       "RelativePath": "styles/bootstrap.css",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\styles\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\styles\\site.css",
+      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\styles\\site.css",
       "SourceId": "ProjectAspNetCore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\",
       "BasePath": "_content/ProjectAspNetCore",
       "RelativePath": "styles/site.css",
       "AssetKind": "All",

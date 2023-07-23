@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U1v7FRU3LH1e1UqGpEjzQVXWZ/jkRWorewjf3rX7lTUR5R7mb+N78TWB8idgz6ESmgNIeeVYgyKqO4nnXTNsIg==",
+  "dgSpecHash": "ytAcNkvfalwWtNMXHePgYe5A1qPzTCKHk+jC9At7Gdwl8nbrFWJRj+CgXxq347i4tl9M/3pmggLhiXNYeXuUAw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\PetShopLogic\\PetShopLogic.csproj",
+  "projectFilePath": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\PetShopLogic\\PetShopLogic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\idop9\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\idop9\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

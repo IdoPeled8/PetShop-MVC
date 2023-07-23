@@ -9,85 +9,81 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProjectAspNetCore
 build_property.RootNamespace = ProjectAspNetCore
-build_property.ProjectDir = C:\Users\idop9\OneDrive\Desktop\Full Course Sela\ASP,net\Project\Project asp\ProjectAspNetCore\
+build_property.ProjectDir = C:\Users\idop9\OneDrive\Desktop\Full Course Sela\ASP,net\Project\PetShop-MVC\Project asp\ProjectAspNetCore\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\idop9\OneDrive\Desktop\Full Course Sela\ASP,net\Project\Project asp\ProjectAspNetCore
+build_property.MSBuildProjectDirectory = C:\Users\idop9\OneDrive\Desktop\Full Course Sela\ASP,net\Project\PetShop-MVC\Project asp\ProjectAspNetCore
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/idop9/OneDrive/Desktop/Full Course Sela/ASP\,net/Project/Project asp/ProjectAspNetCore/Views/Account/Login.cshtml]
+[C:/Users/idop9/OneDrive/Desktop/Full Course Sela/ASP\,net/Project/PetShop-MVC/Project asp/ProjectAspNetCore/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/idop9/OneDrive/Desktop/Full Course Sela/ASP\,net/Project/Project asp/ProjectAspNetCore/Views/Account/Register.cshtml]
+[C:/Users/idop9/OneDrive/Desktop/Full Course Sela/ASP\,net/Project/PetShop-MVC/Project asp/ProjectAspNetCore/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/idop9/OneDrive/Desktop/Full Course Sela/ASP\,net/Project/Project asp/ProjectAspNetCore/Views/Admin/AddAnimal.cshtml]
+[C:/Users/idop9/OneDrive/Desktop/Full Course Sela/ASP\,net/Project/PetShop-MVC/Project asp/ProjectAspNetCore/Views/Admin/AddAnimal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkQW5pbWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/idop9/OneDrive/Desktop/Full Course Sela/ASP\,net/Project/Project asp/ProjectAspNetCore/Views/Admin/AddCategory.cshtml]
+[C:/Users/idop9/OneDrive/Desktop/Full Course Sela/ASP\,net/Project/PetShop-MVC/Project asp/ProjectAspNetCore/Views/Admin/AddCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/idop9/OneDrive/Desktop/Full Course Sela/ASP\,net/Project/Project asp/ProjectAspNetCore/Views/Admin/AdminCatalog.cshtml]
+[C:/Users/idop9/OneDrive/Desktop/Full Course Sela/ASP\,net/Project/PetShop-MVC/Project asp/ProjectAspNetCore/Views/Admin/AdminCatalog.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5DYXRhbG9nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/idop9/OneDrive/Desktop/Full Course Sela/ASP\,net/Project/Project asp/ProjectAspNetCore/Views/Admin/EditAnimal.cshtml]
+[C:/Users/idop9/OneDrive/Desktop/Full Course Sela/ASP\,net/Project/PetShop-MVC/Project asp/ProjectAspNetCore/Views/Admin/EditAnimal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdEFuaW1hbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/idop9/OneDrive/Desktop/Full Course Sela/ASP\,net/Project/Project asp/ProjectAspNetCore/Views/Admin/RemoveCategory.cshtml]
+[C:/Users/idop9/OneDrive/Desktop/Full Course Sela/ASP\,net/Project/PetShop-MVC/Project asp/ProjectAspNetCore/Views/Admin/RemoveCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmVtb3ZlQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/idop9/OneDrive/Desktop/Full Course Sela/ASP\,net/Project/Project asp/ProjectAspNetCore/Views/Animal/AnimalInformation.cshtml]
+[C:/Users/idop9/OneDrive/Desktop/Full Course Sela/ASP\,net/Project/PetShop-MVC/Project asp/ProjectAspNetCore/Views/Animal/AnimalInformation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsXEFuaW1hbEluZm9ybWF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/idop9/OneDrive/Desktop/Full Course Sela/ASP\,net/Project/Project asp/ProjectAspNetCore/Views/Catalog/ShowCatagories.cshtml]
+[C:/Users/idop9/OneDrive/Desktop/Full Course Sela/ASP\,net/Project/PetShop-MVC/Project asp/ProjectAspNetCore/Views/Catalog/ShowCatagories.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ1xTaG93Q2F0YWdvcmllcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/idop9/OneDrive/Desktop/Full Course Sela/ASP\,net/Project/Project asp/ProjectAspNetCore/Views/Error/NotAuthorize.cshtml]
+[C:/Users/idop9/OneDrive/Desktop/Full Course Sela/ASP\,net/Project/PetShop-MVC/Project asp/ProjectAspNetCore/Views/Error/NotAuthorize.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcTm90QXV0aG9yaXplLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/idop9/OneDrive/Desktop/Full Course Sela/ASP\,net/Project/Project asp/ProjectAspNetCore/Views/Home/MostCommentedAnimals.cshtml]
+[C:/Users/idop9/OneDrive/Desktop/Full Course Sela/ASP\,net/Project/PetShop-MVC/Project asp/ProjectAspNetCore/Views/Home/MostCommentedAnimals.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNb3N0Q29tbWVudGVkQW5pbWFscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/idop9/OneDrive/Desktop/Full Course Sela/ASP\,net/Project/Project asp/ProjectAspNetCore/Views/Shared/Components/CatalogAdmin/CatalogPage.cshtml]
+[C:/Users/idop9/OneDrive/Desktop/Full Course Sela/ASP\,net/Project/PetShop-MVC/Project asp/ProjectAspNetCore/Views/Shared/Components/CatalogAdmin/CatalogPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0YWxvZ0FkbWluXENhdGFsb2dQYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/idop9/OneDrive/Desktop/Full Course Sela/ASP\,net/Project/Project asp/ProjectAspNetCore/Views/Shared/Components/LoginRegister/PasswordEye.cshtml]
+[C:/Users/idop9/OneDrive/Desktop/Full Course Sela/ASP\,net/Project/PetShop-MVC/Project asp/ProjectAspNetCore/Views/Shared/Components/LoginRegister/PasswordEye.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTG9naW5SZWdpc3RlclxQYXNzd29yZEV5ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/idop9/OneDrive/Desktop/Full Course Sela/ASP\,net/Project/Project asp/ProjectAspNetCore/Views/Shared/_AddOrEditPartial.cshtml]
+[C:/Users/idop9/OneDrive/Desktop/Full Course Sela/ASP\,net/Project/PetShop-MVC/Project asp/ProjectAspNetCore/Views/Shared/_AddOrEditPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZGRPckVkaXRQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/idop9/OneDrive/Desktop/Full Course Sela/ASP\,net/Project/Project asp/ProjectAspNetCore/Views/Shared/_animalData.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9hbmltYWxEYXRhLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/idop9/OneDrive/Desktop/Full Course Sela/ASP\,net/Project/Project asp/ProjectAspNetCore/Views/Shared/_backToAdminCatalogPartial.cshtml]
+[C:/Users/idop9/OneDrive/Desktop/Full Course Sela/ASP\,net/Project/PetShop-MVC/Project asp/ProjectAspNetCore/Views/Shared/_backToAdminCatalogPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9iYWNrVG9BZG1pbkNhdGFsb2dQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/idop9/OneDrive/Desktop/Full Course Sela/ASP\,net/Project/Project asp/ProjectAspNetCore/Views/Shared/_Layout.cshtml]
+[C:/Users/idop9/OneDrive/Desktop/Full Course Sela/ASP\,net/Project/PetShop-MVC/Project asp/ProjectAspNetCore/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/idop9/OneDrive/Desktop/Full Course Sela/ASP\,net/Project/Project asp/ProjectAspNetCore/Views/_ViewImports.cshtml]
+[C:/Users/idop9/OneDrive/Desktop/Full Course Sela/ASP\,net/Project/PetShop-MVC/Project asp/ProjectAspNetCore/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/idop9/OneDrive/Desktop/Full Course Sela/ASP\,net/Project/Project asp/ProjectAspNetCore/Views/_ViewStart.cshtml]
+[C:/Users/idop9/OneDrive/Desktop/Full Course Sela/ASP\,net/Project/PetShop-MVC/Project asp/ProjectAspNetCore/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

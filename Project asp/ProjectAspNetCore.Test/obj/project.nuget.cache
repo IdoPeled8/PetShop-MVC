@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VATvNHuaYxbmeFMO1dS4qERBIymVjcadUbvDtlxwS6ZhMyZGfjLk9vNBUNfo9DnfKcSvGvX4GZPIwwpXAlubZg==",
+  "dgSpecHash": "ILTc59Tqq/3A1v9hrMFOnsA8+y/ZYsNfZKLrqpjMRQEyAM5wQ5gZVBgDerpsffPvBzlIrM70QIDGT259pUQ3yQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\Project asp\\ProjectAspNetCore.Test\\ProjectAspNetCore.Test.csproj",
+  "projectFilePath": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore.Test\\ProjectAspNetCore.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\idop9\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\idop9\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
