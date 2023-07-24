@@ -1,4 +1,6 @@
 ﻿
+using PetShopModels;
+
 namespace ProjectAspNetCore.Controllers;
 
 [Authorize(Roles = "Admin")]
@@ -7,13 +9,11 @@ public class AdminController : Controller
 
     private readonly AnimalLogic _animalLogic;
     private readonly CategoryLogic _categoryLogic;
-    //public IHubContext<ChatHub> _hubContext;
 
-    public AdminController(AnimalLogic animalLogic, CategoryLogic categoryLogic/*, IHubContext<ChatHub> hubContext*/)
+    public AdminController(AnimalLogic animalLogic, CategoryLogic categoryLogic)
     {
         _animalLogic = animalLogic;
         _categoryLogic = categoryLogic;
-        //_hubContext = hubContext;
     }
 
     public IActionResult AdminCatalog(int? categoryId)
@@ -35,11 +35,6 @@ public class AdminController : Controller
         else if (actionType == "editAnimal")
             return View("EditAnimal", await _animalLogic.GetAnimalByIdAsync(animalId));
 
-        else if (actionType == "removeAnimal")
-        {
-            await _animalLogic.DeleteAnimalAsync(animalId);
-            return RedirectToAction("AdminCatalog");
-        }
         else if (actionType == "addCategory")
             return View("AddCategory");
 
@@ -96,7 +91,7 @@ public class AdminController : Controller
 
         }
         return RedirectToAction("ChangeDataForm", new { actionType = "addAnimal" });
-   }
+    }
 
     [HttpPost]
     public async Task<IActionResult> EditAnimal(Animal animal, IFormFile? imageFile)
@@ -111,6 +106,14 @@ public class AdminController : Controller
             TempData["succeededMessages"] = UiMessages.animalUpdated;
         }
         return RedirectToAction("ChangeDataForm", new { actionType = "editAnimal", animalId = animal.AnimalId });
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> RemoveAnimal(int animalId)
+    {
+        await _animalLogic.DeleteAnimalAsync(animalId);
+        return RedirectToAction("AdminCatalog");
+
     }
 
 }

@@ -23,7 +23,7 @@
                 @if (ViewBag.PageType == "admin")
                 {
                     <a href="@Url.Action("ChangeDataForm", "Admin", new { actionType = "editAnimal", animalId = animal.AnimalId })" class="btn btn-outline-warning">Edit</a>
-                    <a asp-action="ChangeDataForm" asp-controller="Admin" asp-route-actionType="removeAnimal" asp-route-AnimalId="@animal.AnimalId" class="btn btn-outline-danger">Remove</a>
+                    <a href="@Url.Action("ChangeDataForm", "Admin", new { animalId = animal.AnimalId })" onclick="confirmDelete(event, @animal.AnimalId)" class="btn btn-outline-danger">Remove</a>
                 }
             </div>
         </div>
@@ -34,9 +34,29 @@
 
 
 <script>
-    //document.getElementById("categoryDropdown").addEventListener("change", function () {
-    //    document.getElementById("filterForm").submit();
-    //});
+
+    function confirmDelete(event, animalId) {
+        event.preventDefault();
+        if (confirm("Are you sure you want to delete this animal?")) {
+            // If the user confirms, make an AJAX call to the server-side method
+            $.ajax({
+                url: '@Url.Action("RemoveAnimal", "Admin")',
+                type: 'POST',
+                data: { animalId: animalId },
+                success: function (data) {
+                    // Handle the success response, if needed
+                    // For example, you can update the UI to remove the deleted animal
+                },
+                error: function (error) {
+                    // Handle the error, if needed
+                }
+            });
+        } else {
+            // If the user cancels, prevent the default link behavior
+            return false;
+        }
+    };
+
 
     document.getElementById("categoryDropdown").addEventListener("change", function () {
         var selectedCategoryId = this.value;

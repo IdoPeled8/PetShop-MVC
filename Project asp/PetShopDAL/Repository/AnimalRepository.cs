@@ -78,7 +78,7 @@ public class AnimalRepository : IAnimalRepository/* , IMainRepository<Animals>*/
         if (animal != null)
         {
             _petShopContext.Animals!.Remove(await animal);
-            _petShopContext.SaveChanges();
+            await _petShopContext.SaveChangesAsync();
         }
     }
 }

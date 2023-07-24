@@ -57,6 +57,8 @@ app.MapHub<ChatHub>("/chathub");
 
 app.Run();
 
+//when removing animal page refresh with the removed animal
+
 //in the middle of adding users to comments not working well now
 // add all chat??
 //try to use signalR for updating animals
