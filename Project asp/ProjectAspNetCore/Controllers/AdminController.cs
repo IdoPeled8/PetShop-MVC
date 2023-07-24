@@ -109,11 +109,9 @@ public class AdminController : Controller
     }
 
     [HttpPost]
-    public async Task<IActionResult> RemoveAnimal(int animalId)
+    public async Task RemoveAnimal(int animalId)
     {
         await _animalLogic.DeleteAnimalAsync(animalId);
-        return RedirectToAction("AdminCatalog");
-
     }
 
 }

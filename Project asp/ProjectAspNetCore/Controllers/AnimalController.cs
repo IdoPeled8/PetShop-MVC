@@ -34,10 +34,12 @@ public class AnimalController : Controller
                 return NotFound();
             }
             await _animalLogic.AddCommentToAnimalAsync(commentText, animalId);
-            await _animalLogic.UpdateAnimalAsync(animal); //should i need the add?
+
+            return PartialView("_CommentsPartial", animal);
         }
-        return RedirectToAction("AnimalInformation", new { id = animalId });
+        return BadRequest();
     }
+
     public async Task<IActionResult> RemoveComment(int animaLId, int commentId)
     {
         if (ModelState.IsValid)

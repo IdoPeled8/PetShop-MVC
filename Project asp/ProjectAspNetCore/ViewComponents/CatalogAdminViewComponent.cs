@@ -19,7 +19,7 @@ public class CatalogAdminViewComponent : ViewComponent
 
         var  animals = store.Item2.HasValue
             ? _animalLogic.GetAnimalsByCategoryAsync(store.Item2.Value)
-            : _animalLogic.GetAllAnimalsAsync();
+            :_animalLogic.GetAllAnimalsAsync();
         ViewBag.PageType = store.Item1;
         return await Task.FromResult<IViewComponentResult>(View("CatalogPage", await animals));
     }

@@ -64,10 +64,6 @@ namespace ProjectAspNetCore.Controllers
                 else
                 {
                     //// User registration failed, add error messages to ModelState
-                    //foreach (var error in result.Errors)
-                    //{
-                    //    ModelState.AddModelError("", error.Description);
-                    //}
                 }
             }
             // If registration fails or ModelState is invalid, return to the registration page with validation errors

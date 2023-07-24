@@ -1,0 +1,27 @@
+﻿@model PetShopModels.Animal
+
+@if (Model.Comments!.Any())
+{
+    <ul id="commentsContainer">
+        @foreach (var comment in Model.Comments!)
+        {
+            <li>
+                @comment.CommentText
+
+                @if (User.IsInRole("Admin"))
+                {
+
+                    <form class="d-inline" method="post" action="@Url.Action("RemoveComment", "Animal")">
+                        <input type="hidden" name="commentId" value="@comment.CommentId" />
+                        <input type="hidden" name="animalId" value="@Model.AnimalId" />
+                        <button type="submit" class="btn btn-link btn-sm">Remove Comment</button>
+                    </form>
+                }
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p>No comments available.</p>
+}

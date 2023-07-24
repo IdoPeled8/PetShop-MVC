@@ -12,7 +12,7 @@ namespace PetShopDAL.Repository
             _petShopContext = petShopContext;
         }
 
-      
+    
         public async Task DeleteAsync(int id)
         {
             var comment = await _petShopContext.Comments!.FirstOrDefaultAsync(c => c.CommentId == id)!;

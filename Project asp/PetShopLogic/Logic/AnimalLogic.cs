@@ -10,6 +10,7 @@ public class AnimalLogic
         _animalRepository = animalRepository;
     }
 
+    public async Task<IEnumerable<Comment>> GetAllAnimalCommentsAsync(int id) => await _animalRepository.GetAllComments(id);
     public async Task<ICollection<Animal>> GetAnimalsWithMostComments() => await _animalRepository.GetAnimalsWithMostComments();
 
     public async Task<Animal> GetAnimalByIdAsync(int id) => await _animalRepository.GetByIdAsync(id);

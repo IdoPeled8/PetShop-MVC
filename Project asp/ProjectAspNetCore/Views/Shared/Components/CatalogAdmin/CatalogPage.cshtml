@@ -10,11 +10,10 @@
     </form>
 </div>
 
-
 <div class="card-container">
     @foreach (var animal in Model)
     {
-        <div class="card" style="width: 18rem;" data-category="@animal.CategoryId">
+        <div class="card" style="width: 18rem;" data-category="@animal.CategoryId" id="animal-card-@animal.AnimalId">
             <img src="~/Pics/@animal.ImageName" class="img-fluid" alt="Animal Image" class="align-content-center" id="animalImage">
             <div class="card-body">
                 <h5 class="card-title">@animal.Name</h5>
@@ -44,8 +43,8 @@
                 type: 'POST',
                 data: { animalId: animalId },
                 success: function (data) {
-                    // Handle the success response, if needed
-                    // For example, you can update the UI to remove the deleted animal
+                    // Remove the animal card from the page
+                    $('#animal-card-' + animalId).remove();
                 },
                 error: function (error) {
                     // Handle the error, if needed
@@ -55,24 +54,21 @@
             // If the user cancels, prevent the default link behavior
             return false;
         }
-    };
+    }
 
 
     document.getElementById("categoryDropdown").addEventListener("change", function () {
         var selectedCategoryId = this.value;
         var cardContainers = document.getElementsByClassName("card-container");
 
-        // Iterate through each card container
         for (var i = 0; i < cardContainers.length; i++) {
             var cards = cardContainers[i].getElementsByClassName("card");
 
-            // Iterate through each card in the container
             for (var j = 0; j < cards.length; j++) {
                 var card = cards[j];
                 var cardCategory = card.getAttribute("data-category");
 
-                // Show/hide the card based on the selected category
-                if (selectedCategoryId === "" || cardCategory === selectedCategoryId) {
+                if (/*selectedCategoryId === "" ||*/ cardCategory === selectedCategoryId) {
                     card.style.display = "block";
                 } else {
                     card.style.display = "none";

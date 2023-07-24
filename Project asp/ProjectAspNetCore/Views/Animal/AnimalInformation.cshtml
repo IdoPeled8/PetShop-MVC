@@ -26,49 +26,53 @@
             <td><strong>@Model.Age</strong></td>
             <td><strong>@Model.Category!.Name</strong></td>
             <td><strong>@Model.Description</strong></td>
-            <td>
-                    @if (Model.Comments!.Any())
-                    {
-                    <ul>
-                            @foreach (var comment in Model.Comments!)
-                            {
-                            <li>@comment.CommentText
 
-                                    @if (User.IsInRole("Admin"))
-                                    {
-                                        
-                                    <form class="d-inline" method="post" action="@Url.Action("RemoveComment", "Animal")">
-                                <input type="hidden" name="commentId" value="@comment.CommentId" />
-                                <input type="hidden" name="animalId" value="@Model.AnimalId" />
-                                <button type="submit" class="btn btn-link btn-sm">Remove Comment</button>
-                            </form>
-                                    }
-                            </li>
-                            }
-                    </ul>
-                    }
-                    else
-                    {
-                    <p>No comments available.</p>
-                    }
+            <td id="commentsContainer">
+                  @await Html.PartialAsync("_CommentsPartial",Model)
             </td>
         </tr>
     </tbody>
 </table>
 
-@if (User.Identity!.IsAuthenticated)
-{
-    <form class="col-md-5" method="post" action="@Url.Action("AddComment", "Animal")">
-        <input type="hidden" name="animalId" value="@Model.AnimalId" />
-        <div>
-            <textarea name="commentText" class="form-control" rows="3" placeholder="Add new comment" required></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Add Comment</button>
-    </form>
-}
-else
-{
-    <a>To add comment please Login or Signup</a>
-    <a asp-action="Login" asp-controller="Account" class="btn btn-primary">Login</a>
-}
+<div id="newCommentFormContainer">
+    @if (User.Identity!.IsAuthenticated)
+    {
+        <form class="col-md-5" id="newCommentForm" data-animal-id="@Model.AnimalId" method="post" action="@Url.Action("AddComment", "Animal")">
+            <input type="hidden" name="animalId" value="@Model.AnimalId" />
+            <div>
+                <textarea name="commentText" class="form-control" rows="3" placeholder="Add new comment" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Add Comment</button>
+        </form>
+    }
+    else
+    {
+        <a>To add comment please Login or Signup</a>
+        <a asp-action="Login" asp-controller="Account" class="btn btn-primary">Login</a>
+    }
+</div>
 
+
+<script>
+    $(document).ready(function () {
+        $("#newCommentForm").submit(function (e) {
+            e.preventDefault();
+
+            var formData = $(this).serialize();
+
+            $.ajax({
+                url: $(this).attr("action"),
+                type: "POST",
+                data: formData,
+                success: function (response) {
+                    $("#commentsContainer").html(response);
+                    
+                    $("#newCommentForm textarea").val("");
+                },
+                error: function (error) {
+                    // Handle the error, if needed
+                }
+            });
+        });
+    });
+</script>
