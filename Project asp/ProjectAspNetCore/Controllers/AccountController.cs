@@ -14,10 +14,7 @@ namespace ProjectAspNetCore.Controllers
         }
 
         [HttpGet]
-        public IActionResult Login()
-        {
-            return View();
-        }
+        public IActionResult Login() => View();
 
         [HttpPost]
         public async Task<IActionResult> Login(LoginUserModel model)
@@ -40,19 +37,13 @@ namespace ProjectAspNetCore.Controllers
         }
 
         [HttpGet]
-        public IActionResult Register()
-        {
-            // here i need to give some rules to the password that will show in validation MSG
-            return View();
-        }
+        public IActionResult Register() => View();
 
         [HttpPost]
         public async Task<IActionResult> Register(RegisterUserModel model)
         {
             if (ModelState.IsValid)
             {
-                // Use the provided registration data to create a new user
-
                 var user = await _userLogic.MakeNewUserAsync(model);
 
                 if (user)
@@ -70,11 +61,7 @@ namespace ProjectAspNetCore.Controllers
             return View(model);
         }
 
-        public IActionResult AccessDenied()
-        {
-
-            return RedirectToAction("MostCommentedAnimals", "Home");
-        }
+        public IActionResult AccessDenied() => RedirectToAction("MostCommentedAnimals", "Home");
 
 
         public async Task<IActionResult> CreateRoleAndUsers()

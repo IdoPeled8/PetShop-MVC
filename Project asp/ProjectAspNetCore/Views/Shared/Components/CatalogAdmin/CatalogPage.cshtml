@@ -68,7 +68,7 @@
                 var card = cards[j];
                 var cardCategory = card.getAttribute("data-category");
 
-                if (/*selectedCategoryId === "" ||*/ cardCategory === selectedCategoryId) {
+                if (selectedCategoryId === "" || cardCategory === selectedCategoryId) {
                     card.style.display = "block";
                 } else {
                     card.style.display = "none";

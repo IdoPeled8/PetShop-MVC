@@ -22,16 +22,14 @@ public class AnimalRepository : IAnimalRepository/* , IMainRepository<Animals>*/
         return animalsWithMostComments;
 
     }
-    public async Task<IEnumerable<Comment>> GetAllComments(int animalId)
-    {
-        // Get the animal with the specified ID, including its comments
-        var animal = await _petShopContext.Animals!
-            .Include(a => a.Comments)
-            .FirstOrDefaultAsync(a => a.AnimalId == animalId);
+    //public async Task<IEnumerable<Comment>> GetAllComments(int animalId)
+    //{
+    //    var animal = await _petShopContext.Animals!
+    //        .Include(a => a.Comments)
+    //        .FirstOrDefaultAsync(a => a.AnimalId == animalId);
 
-        // Return the animal's comments, or an empty list if the animal was not found
-        return animal?.Comments ?? new List<Comment>();
-    }
+    //    return animal?.Comments ?? new List<Comment>();
+    //}
 
     public async Task<Animal> GetByIdAsync(int id)
     {

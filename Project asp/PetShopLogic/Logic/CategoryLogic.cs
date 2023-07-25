@@ -20,6 +20,5 @@
         public async Task UpdateCategoryAsync(Category category) => await _categoryRepository.UpdateAsync(category);
 
         public async Task DeleteCategoryAsync(int categoryId) => await _categoryRepository.DeleteAsync(categoryId);
-        // Category-specific logic methods go here
     }
 }
