@@ -4,6 +4,8 @@
     {
         [Required]
         public string UserName { get; set; } = string.Empty;
+
+
         [Required(ErrorMessage = "The Password field is required.")]
         [DataType(DataType.Password)]
         [StringLength(100, ErrorMessage = "The {0} must be at least {2} characters long.", MinimumLength = 8)]
@@ -11,8 +13,6 @@
         public string Password { get; set; } = string.Empty;
         [Required]
         public string ConfirmPassword { get; set; } = string.Empty;
-        public string Email { get; set; } = string.Empty;
-        public string PhoneNumber { get; set; } = string.Empty;
 
 
     }

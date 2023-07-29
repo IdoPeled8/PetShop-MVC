@@ -4,8 +4,6 @@
     {
         Task<ICollection<Animal>> GetAnimalsWithMostComments();
         Task<Animal> GetByIdAsync(int id);
-
-        //Task<IEnumerable<Comment>> GetAllComments(int id);
         Task<ICollection<Animal>> GetAllAsync();
         Task<ICollection<Animal>> GetByCategoryAsync(int categoryId);
         Task AddCommentAsync(string commentText, int animalId);

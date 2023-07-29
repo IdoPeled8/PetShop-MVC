@@ -22,14 +22,7 @@ public class AnimalRepository : IAnimalRepository/* , IMainRepository<Animals>*/
         return animalsWithMostComments;
 
     }
-    //public async Task<IEnumerable<Comment>> GetAllComments(int animalId)
-    //{
-    //    var animal = await _petShopContext.Animals!
-    //        .Include(a => a.Comments)
-    //        .FirstOrDefaultAsync(a => a.AnimalId == animalId);
-
-    //    return animal?.Comments ?? new List<Comment>();
-    //}
+ 
 
     public async Task<Animal> GetByIdAsync(int id)
     {

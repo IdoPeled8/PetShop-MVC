@@ -10,5 +10,7 @@
         public static string RegisterSucceeded = "your account as been created Succesfully";
         public static string PhotoIsNull = "You need to choose a photo";
         public static string UserNamePasswordWrong = "User Name or Password is wrong";
+        public static string CategoryNameExist = "this category name already Exist";
+
     }
 }

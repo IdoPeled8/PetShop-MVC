@@ -5,8 +5,6 @@ namespace ProjectAspNetCore.Controllers
 {
     public class AccountController : Controller
     {
-        // change all async methods name to async at the end
-
         private UserLogic _userLogic;
         public AccountController(UserLogic userLogic)
         {
@@ -23,6 +21,7 @@ namespace ProjectAspNetCore.Controllers
             {
                 if (await _userLogic.CheckUserAsync(model))
                     return RedirectToAction("MostCommentedAnimals", "Home");
+
                 TempData["UserNamePasswordWrong"] = UiMessages.UserNamePasswordWrong;
             }
             return View();
@@ -46,21 +45,12 @@ namespace ProjectAspNetCore.Controllers
 
                 if (user)
                 {
-                    // User registration successful, redirect to a success page or login page
                     TempData["RegisterSucceeded"] = UiMessages.RegisterSucceeded;
                     return RedirectToAction("Login");
                 }
-                else
-                {
-                    //// User registration failed, add error messages to ModelState
-                }
             }
-            // If registration fails or ModelState is invalid, return to the registration page with validation errors
             return View(model);
         }
-
-        public IActionResult AccessDenied() => RedirectToAction("MostCommentedAnimals", "Home");
-
 
         public async Task<IActionResult> CreateRoleAndUsers()
         {
@@ -74,5 +64,7 @@ namespace ProjectAspNetCore.Controllers
             }
             return RedirectToAction("Login");
         }
+
+        public IActionResult AccessDenied() => RedirectToAction("MostCommentedAnimals", "Home");
     }
 }

@@ -7,13 +7,9 @@
     <h3>all animals data</h3>
 }
 
-
-
-<!-- Chat Container (Initially Hidden) -->
-<div class="d-none" id="chatContainer">
+<div  id="chatContainer">
     <div class="d-flex justify-content-center">
         <div class="p-2">
-            @*<label for="adminChat">admins chat</label>*@
             <input name="adminChat" type="text" id="message" />
             <input type="button" class="btn btn-primary" id="all" value="Send message" />
         </div>
@@ -36,26 +32,10 @@
     </div>
 </div>
 
-<style>
-    /* Add a fixed height and set overflow-y to auto to create a scrollable whiteboard */
-    #chatLog {
-        background-color: wheat;
-        height: 200px; /* Adjust the height as needed */
-        width: 620px;
-        overflow-y: auto;
-        border: 5px solid #ccc; /* Optional: Add a border for a cleaner look */
-        padding: 5px; /* Optional: Add some padding for better visual appearance */
-    }
-
-    #message {
-        width: 500px;
-    }
-
-</style>
-
 @await Component.InvokeAsync("CatalogAdmin",ViewBag.PageAndId)
 
 <script>
+    //signalR msg sent
     var connection = new signalR.HubConnectionBuilder()
         .withUrl("/chathub")
         .build();
@@ -65,6 +45,19 @@
     });
 
     connection.start().catch(err => console.error(err.toString()));
+
+    //chat history
+    connection.on("ChatHistory", function (chatHistory) {
+        for (let i = 0; i < chatHistory.length; i++) {
+            $("#chatLog").append("<div>" + chatHistory[i] + "</div>");
+        }
+    });
+
+    $(document).ready(function () {
+        $("#openChat").click(function () {
+            $("#chatContainer").toggleClass("d-none");
+        });
+    });
 
     $("#all").click(function () {
         var userName = '@ViewBag.user';
@@ -76,29 +69,23 @@
 
     document.getElementById("categoryDropdown").addEventListener("change", function () {
         document.getElementById("filterForm").submit();
-
-
     });
-
-
-    //Happens only when i join the page and only then uses the collection
-    connection.on("ChatHistory", function (chatHistory) {
-        // Loop through the chatHistory array and add each message to the chat log
-        for (let i = 0; i < chatHistory.length; i++) {
-            $("#chatLog").append("<div>" + chatHistory[i] + "</div>");
-        }
-    });
-
-    // Wait for the document to be ready
-    $(document).ready(function () {
-        // Set up click event for the toggle button
-        $("#openChat").click(function () {
-            // Toggle the visibility of the chat container
-            $("#chatContainer").toggleClass("d-none");
-        });
-    });
-
-    
 
 </script>
 
+
+<style>
+    #chatLog {
+        background-color: wheat;
+        height: 200px;
+        width: 620px;
+        overflow-y: auto;
+        border: 5px solid #ccc;
+        padding: 5px;
+    }
+
+    #message {
+        width: 500px;
+    }
+
+</style>

@@ -19,7 +19,9 @@ namespace PetShopLogic
         {
             var result = await _signInManager.PasswordSignInAsync(model.UserName!, model.Password!, false, false);
             if (result.Succeeded)
-            { return true; }
+            {
+                return true;
+            }
             return false;
         }
         public async Task<bool> MakeNewUserAsync(RegisterUserModel model)
@@ -27,8 +29,6 @@ namespace PetShopLogic
             var user = new IdentityUser
             {
                 UserName = model.UserName,
-                Email = model.Email,
-                PhoneNumber = model.PhoneNumber
             };
             var result = await _userManager.CreateAsync(user, model.Password);
 
@@ -39,7 +39,6 @@ namespace PetShopLogic
 
         public async Task CreateDefaultUsersAsync()
         {
-            // Define user-role data using a collection or database query
             var userRoleData = new List<(string UserName, string Password, string RoleName)>
     {
         ("ido", "Ido123@", "Admin"),
@@ -49,7 +48,6 @@ namespace PetShopLogic
         ("user3", "User3123@", "regularUser")
     };
 
-            // Create roles
             await CreateRolesAsync();
 
             // Create and assign users to roles

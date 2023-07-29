@@ -3,7 +3,8 @@ using PetShopModels;
 
 namespace ProjectAspNetCore.Controllers;
 
-[Authorize(Roles = "Admin")]
+[Authorize(Roles
+    = "Admin")]
 public class AdminController : Controller
 {
 
@@ -43,6 +44,7 @@ public class AdminController : Controller
 
         return RedirectToAction("AdminCatalog");
     }
+
     [HttpPost]
     public async Task<IActionResult> AddCategory(string newCategoryName)
     {
@@ -52,7 +54,10 @@ public class AdminController : Controller
             await _categoryLogic.AddCategoryAsync(newCategoryName);
             TempData["succeededMessages"] = UiMessages.categoryAdded;
         }
-        //send msg say this category Name already Exist
+        else
+        {
+            TempData["CategoryNameExist"] = UiMessages.CategoryNameExist;
+        }
         return View();
     }
 
@@ -87,7 +92,6 @@ public class AdminController : Controller
             }
             await _animalLogic.AddAnimalAsync(animal);
             TempData["succeededMessages"] = UiMessages.animalAdded;
-            //await _hubContext.Clients.All.SendAsync("UpdateAnimal", animal);
 
         }
         return RedirectToAction("ChangeDataForm", new { actionType = "addAnimal" });
@@ -106,12 +110,6 @@ public class AdminController : Controller
             TempData["succeededMessages"] = UiMessages.animalUpdated;
         }
         return RedirectToAction("ChangeDataForm", new { actionType = "editAnimal", animalId = animal.AnimalId });
-    }
-
-    [HttpPost]
-    public async Task RemoveAnimal(int animalId)
-    {
-        await _animalLogic.DeleteAnimalAsync(animalId);
     }
 
 }

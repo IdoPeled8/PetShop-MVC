@@ -65,26 +65,11 @@
             var confirmPassword = $(this).val();
             if (password === confirmPassword) {
                 $('#confirmPasswordError').text('');
-                $('#NewAnimalForm').find(':submit').prop('disabled', false); // Enable form submission
+                $('#NewAnimalForm').find(':submit').prop('disabled', false); 
             } else {
                 $('#confirmPasswordError').text('Passwords do not match');
-                $('#NewAnimalForm').find(':submit').prop('disabled', true); // Disable form submission
+                $('#NewAnimalForm').find(':submit').prop('disabled', true); 
             }
         });
     });
 </script>
-@*
-<script>
-    $(document).ready(function () {
-        $('#confirmPassword').on('input', function () {
-            var password = $('#passwordInput').val();
-            var confirmPassword = $(this).val();
-            if (password === confirmPassword) {
-                $('#confirmPasswordError').text('');
-            } else {
-                $('#confirmPasswordError').text('Passwords do not match');
-            }
-        });
-    });
-</script>
-*@

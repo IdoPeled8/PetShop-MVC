@@ -105,14 +105,6 @@
       "PackagePath": "staticwebassets\\libraries\\signalr.js"
     },
     {
-      "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\scripts\\chat.js",
-      "PackagePath": "staticwebassets\\scripts\\chat.js"
-    },
-    {
-      "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\scripts\\updateAnimalSignalR.js",
-      "PackagePath": "staticwebassets\\scripts\\updateAnimalSignalR.js"
-    },
-    {
       "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\styles\\animalCard.css",
       "PackagePath": "staticwebassets\\styles\\animalCard.css"
     },

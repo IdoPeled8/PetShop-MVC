@@ -10,7 +10,6 @@ public class AnimalLogic
         _animalRepository = animalRepository;
     }
 
-    //public async Task<IEnumerable<Comment>> GetAllAnimalCommentsAsync(int id) => await _animalRepository.GetAllComments(id);
     public async Task<ICollection<Animal>> GetAnimalsWithMostComments() => await _animalRepository.GetAnimalsWithMostComments();
 
     public async Task<Animal> GetAnimalByIdAsync(int id) => await _animalRepository.GetByIdAsync(id);
@@ -29,11 +28,9 @@ public class AnimalLogic
 
     public async Task AddPhotoToAnimal(IFormFile newPhoto, Animal animal)
     {
-        // Save the uploaded file to wwwRoot
         var fileName = Path.GetFileName(newPhoto.FileName);
         var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Pics", fileName);
 
-        //checks if this photo already exist in the project
         if (!File.Exists(filePath))
         {
             using (var stream = new FileStream(filePath, FileMode.Create))
@@ -41,7 +38,6 @@ public class AnimalLogic
                 await newPhoto.CopyToAsync(stream);
             }
         }
-        // Update the ImageName property with the saved file name
         animal.ImageName = fileName;
     }
 }

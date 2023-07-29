@@ -16,7 +16,10 @@
                     <div class="card-body p-5 text-center">
                         <div class="text-success">
                             @TempData["succeededMessages"]
-                            </div>
+                        </div>
+                        <div class="text-danger">
+                            @TempData["CategoryNameExist"]
+                        </div>
 
                         <form action="AddCategory" method="post">
                             <label for="newCategory">Add New Category:</label>
@@ -24,7 +27,7 @@
                             <button type="submit" class="btn btn-success col-md-4">Add new category</button>
                         </form>
                     </div>
-                        <partial name="_backToAdminCatalogPartial" />
+                    <partial name="_backToAdminCatalogPartial" />
                 </div>
             </div>
         </div>

@@ -1,6 +1,7 @@
 ﻿
 namespace ProjectAspNetCore.Controllers;
 
+
 public class HomeController : Controller
 {
     private readonly AnimalLogic _animalLogic;
@@ -14,7 +15,6 @@ public class HomeController : Controller
 
     public async Task<IActionResult> MostCommentedAnimals()
     {
-
         return View(await _animalLogic.GetAnimalsWithMostComments());
     }
 

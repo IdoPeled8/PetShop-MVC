@@ -4,11 +4,13 @@
     {
         public IActionResult UnexpectedError()
         {
-            return Content("Unexpected Error"); //make view
+            TempData["UnexpectedError"] = "UnexpectedError occurred";
+            return View("NotAuthorize"); 
         }
 
         public IActionResult NotAuthorize()
         {
+            TempData["UnexpectedError"] = "sry you are not authorize to join this page";
             return View();
         }
     }

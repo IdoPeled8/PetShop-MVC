@@ -2,8 +2,6 @@
 
 public class CatalogAdminViewComponent : ViewComponent
 {
-   // private readonly IAnimalRepository _animalRepository;
-  //  private readonly ICategoryRepository _categoryRepository;
     private readonly CategoryLogic _categoryLogic;
     private readonly AnimalLogic _animalLogic;
 

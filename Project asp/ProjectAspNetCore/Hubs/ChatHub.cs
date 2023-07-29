@@ -17,10 +17,5 @@ namespace ProjectAspNetCore.Hubs
             await Clients.Caller.SendAsync("ChatHistory", chatHistory);
             await base.OnConnectedAsync();
         }
-
-        //public async Task UpdateAnimal(Animal animal)
-        //{
-        //    await Clients.All.SendAsync("ReceiveAnimalUpdate", animal);
-        //}
     }
 }

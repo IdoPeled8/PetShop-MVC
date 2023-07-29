@@ -17,12 +17,13 @@
             <img src="~/Pics/@animal.ImageName" class="img-fluid" alt="Animal Image" class="align-content-center" id="animalImage">
             <div class="card-body">
                 <h5 class="card-title">@animal.Name</h5>
-                <p class="card-text">@animal.Description</p> @*add show more button if the description too long*@
+                <p class="card-text">@animal.Description</p> 
                 <a href="@Url.Action("AnimalInformation", "Animal", new {actionType = "add", id = animal.AnimalId })" class="btn btn-outline-info">Full Details</a>
                 @if (ViewBag.PageType == "admin")
                 {
                     <a href="@Url.Action("ChangeDataForm", "Admin", new { actionType = "editAnimal", animalId = animal.AnimalId })" class="btn btn-outline-warning">Edit</a>
-                    <a href="@Url.Action("ChangeDataForm", "Admin", new { animalId = animal.AnimalId })" onclick="confirmDelete(event, @animal.AnimalId)" class="btn btn-outline-danger">Remove</a>
+                    <a href="#" onclick="confirmDelete(event, @animal.AnimalId)" class="btn btn-outline-danger">Remove</a>
+
                 }
             </div>
         </div>
@@ -30,36 +31,34 @@
 </div>
 
 
-
-
 <script>
-
+    //api send
     function confirmDelete(event, animalId) {
         event.preventDefault();
         if (confirm("Are you sure you want to delete this animal?")) {
-            // If the user confirms, make an AJAX call to the server-side method
+
             $.ajax({
-                url: '@Url.Action("RemoveAnimal", "Admin")',
+                url: '/api/AdminApi/RemoveAnimal/'+animalId,
                 type: 'POST',
-                data: { animalId: animalId },
                 success: function (data) {
-                    // Remove the animal card from the page
+                    console.log("work?");
                     $('#animal-card-' + animalId).remove();
                 },
                 error: function (error) {
-                    // Handle the error, if needed
+                    console.log("Error occurred when trying to remove animal")
                 }
             });
+
         } else {
-            // If the user cancels, prevent the default link behavior
             return false;
         }
     }
 
-
+    //filter category
     document.getElementById("categoryDropdown").addEventListener("change", function () {
         var selectedCategoryId = this.value;
         var cardContainers = document.getElementsByClassName("card-container");
+
 
         for (var i = 0; i < cardContainers.length; i++) {
             var cards = cardContainers[i].getElementsByClassName("card");

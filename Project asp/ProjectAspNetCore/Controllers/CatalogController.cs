@@ -1,6 +1,7 @@
 ﻿
 namespace ProjectAspNetCore.Controllers
 {
+
     public class CatalogController : Controller
     {
 
