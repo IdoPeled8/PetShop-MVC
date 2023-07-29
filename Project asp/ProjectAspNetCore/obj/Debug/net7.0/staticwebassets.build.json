@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iTvaZK5PatXE1hOZi456KvjB1L8i6wLL2rrA1AXoTSQ=",
+  "Hash": "AohU6+LiBqyJF9odsadBa3/YEkV0+vX3FjGjy7/H4NQ=",
   "Source": "ProjectAspNetCore",
   "BasePath": "_content/ProjectAspNetCore",
   "Mode": "Default",
@@ -1460,6 +1460,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Pics\\thisisMe.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\Untitled.png",
+      "SourceId": "ProjectAspNetCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\",
+      "BasePath": "_content/ProjectAspNetCore",
+      "RelativePath": "Pics/Untitled.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Pics\\Untitled.png"
     },
     {
       "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\scripts\\chat.js",

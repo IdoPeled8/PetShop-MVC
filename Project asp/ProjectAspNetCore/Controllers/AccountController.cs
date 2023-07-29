@@ -21,11 +21,9 @@ namespace ProjectAspNetCore.Controllers
         {
             if (ModelState.IsValid)
             {
-                //move this to buisness logic
                 if (await _userLogic.CheckUserAsync(model))
-                {
                     return RedirectToAction("MostCommentedAnimals", "Home");
-                }
+                TempData["UserNamePasswordWrong"] = UiMessages.UserNamePasswordWrong;
             }
             return View();
         }

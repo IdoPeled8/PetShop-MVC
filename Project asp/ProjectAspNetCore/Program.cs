@@ -58,15 +58,14 @@ app.MapHub<ChatHub>("/chathub");
 app.Run();
 
 //new TODO
-//add login messages when passwork or name is wrong
-//change admins chat to defoult none because every time filter category this open again
 //need to make: if photo not valid send message to the user
-//Description input in add or edit is to small - make it bigger if user put more words - CRITICAL THIS IS WHAT AMIR SAID YOU MUST DO
 //if add existing name category said this is exists
 //i can manipulate the confirm passwork in the register
 //if user name is exist say the user that try to register that is exist (message)
 
+//add ajax to everything that dont need to reload the page again (Login,photo changing...)
 
+//after web api add some FrontEnd style - (learn more css and bootstrap)
 //when removing animal page refresh with the removed animal
 
 //in the middle of adding users to comments not working well now

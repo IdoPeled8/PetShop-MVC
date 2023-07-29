@@ -16,7 +16,8 @@
                         <div class="form-row">
                             <div class="form-group col-md-4">
                                 <label asp-for="Name"></label>
-                                <input asp-for="Name" class="form-control" placeholder="Name" />
+                                <input asp-for="Name" id="nameInput" class="form-control" placeholder="Name" />
+                                <span id="nameCount"></span>
                                 <span asp-validation-for="Name" class="text-danger"></span>
                             </div>
                             <div class="form-group col-md-4">
@@ -35,7 +36,8 @@
 
                             <div class="form-group col-md-12 ">
                                 <label asp-for="Description"></label>
-                                <input asp-for="Description" class="form-control" placeholder="add some description" />
+                                <textarea asp-for="Description" class="form-control" placeholder="add some description" id="descriptionInput"></textarea>
+                                <span id="descriptionCount"></span>
                                 <span asp-validation-for="Description" class="text-danger"></span>
                             </div>
 
@@ -65,8 +67,14 @@
     </div>
 </section>
 
+<style>
+    #descriptionCount, #nameCount {
+        font-size: 10px;
+    }
+</style>
 
 <script>
+    //Photo Show
     document.getElementById("imageInput").addEventListener("change", function () {
         var fileName = this.files[0].name;
         var label = document.querySelector(".custom-file-label");
@@ -81,6 +89,35 @@
         label.textContent = existingImageName;
         document.getElementById("imageName").value = existingImageName;
     }
+
+    //Description letters Count
+    $(document).ready(function () {
+        var descriptionInput = document.getElementById("descriptionInput");
+        var descriptionCount = document.getElementById("descriptionCount");
+
+        updateCharacterCount();
+
+        descriptionInput.addEventListener("input", updateCharacterCount);
+
+        function updateCharacterCount() {
+            var count = descriptionInput.value.length;
+            descriptionCount.textContent = count + "/1000";
+        }
+    });
+    //Name letters Count
+    $(document).ready(function () {
+        var nameInput = document.getElementById("nameInput");
+        var nameCount = document.getElementById("nameCount");
+
+        updateNameCharacterCount();
+
+        nameInput.addEventListener("input", updateNameCharacterCount);
+
+        function updateNameCharacterCount() {
+            var count = nameInput.value.length;
+            nameCount.textContent = count + "/30";
+        }
+    });
 </script>
 
 

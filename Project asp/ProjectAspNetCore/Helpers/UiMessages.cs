@@ -9,5 +9,6 @@
         public static string categoryRemoved = "category removed succeeded";
         public static string RegisterSucceeded = "your account as been created Succesfully";
         public static string PhotoIsNull = "You need to choose a photo";
+        public static string UserNamePasswordWrong = "User Name or Password is wrong";
     }
 }

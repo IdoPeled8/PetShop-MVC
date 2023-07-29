@@ -17,7 +17,7 @@
             <img src="~/Pics/@animal.ImageName" class="img-fluid" alt="Animal Image" class="align-content-center" id="animalImage">
             <div class="card-body">
                 <h5 class="card-title">@animal.Name</h5>
-                <p class="card-text">@animal.Description</p>
+                <p class="card-text">@animal.Description</p> @*add show more button if the description too long*@
                 <a href="@Url.Action("AnimalInformation", "Animal", new {actionType = "add", id = animal.AnimalId })" class="btn btn-outline-info">Full Details</a>
                 @if (ViewBag.PageType == "admin")
                 {

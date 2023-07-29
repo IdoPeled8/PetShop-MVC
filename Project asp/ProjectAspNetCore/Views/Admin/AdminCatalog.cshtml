@@ -10,7 +10,7 @@
 
 
 <!-- Chat Container (Initially Hidden) -->
-<div  id="chatContainer">
+<div class="d-none" id="chatContainer">
     <div class="d-flex justify-content-center">
         <div class="p-2">
             @*<label for="adminChat">admins chat</label>*@
@@ -29,7 +29,7 @@
 
 <div class="d-flex justify-content-center" >
     <div class="p-2">
-        <button type="button" id="openChat" class="btn btn-primary mr-2"> "<strong>Minimize admins chat</strong></button>
+        <button type="button" id="openChat" class="btn btn-primary mr-2"> Open\Close <strong>admins chat</strong></button>
         <a class="btn btn-success  mx-2" href="@Url.Action("ChangeDataForm", "Admin", new { actionType = "addAnimal" })">   <strong>Add new animal</strong></a>
         <a class="btn btn-success mx-2" href="@Url.Action("ChangeDataForm", "Admin", new { actionType = "addCategory" })">  <strong>Add new category</strong></a>
         <a class="btn btn-danger ml-2" href="@Url.Action("ChangeDataForm", "Admin", new { actionType = "removeCategory" })"><strong>Remove Category</strong></a>

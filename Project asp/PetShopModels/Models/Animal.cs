@@ -19,6 +19,7 @@ public class Animal
     public string? ImageName { get; set; }
 
     [Required(ErrorMessage = "Description is required.")]
+    [StringLength(1000, ErrorMessage = "Description cannot exceed 1000 letters.")]
     public string? Description { get; set; }
 
     [Required(ErrorMessage = "Please Choose one of the categories below.")]
@@ -31,4 +32,3 @@ public class Animal
 }
 
 
-// this will auto add id??
