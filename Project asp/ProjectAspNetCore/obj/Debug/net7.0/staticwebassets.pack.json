@@ -1,16 +1,12 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\22.jpg",
-      "PackagePath": "staticwebassets\\Pics\\22.jpg"
-    },
-    {
-      "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\33.jpg",
-      "PackagePath": "staticwebassets\\Pics\\33.jpg"
-    },
-    {
       "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\BeardedDragon.jpeg",
       "PackagePath": "staticwebassets\\Pics\\BeardedDragon.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\BengalCat.jpeg",
+      "PackagePath": "staticwebassets\\Pics\\BengalCat.jpeg"
     },
     {
       "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\Betta Fish.jpeg",
@@ -21,8 +17,16 @@
       "PackagePath": "staticwebassets\\Pics\\BettaFish.jpeg"
     },
     {
+      "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\Canary.jpeg",
+      "PackagePath": "staticwebassets\\Pics\\Canary.jpeg"
+    },
+    {
       "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\Cockatiel.jpeg",
       "PackagePath": "staticwebassets\\Pics\\Cockatiel.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\CornSnake.jpeg",
+      "PackagePath": "staticwebassets\\Pics\\CornSnake.jpeg"
     },
     {
       "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\GermanShepherd.jpeg",
@@ -31,6 +35,18 @@
     {
       "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\Goldfish.jpeg",
       "PackagePath": "staticwebassets\\Pics\\Goldfish.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\GuineaPig.jpeg",
+      "PackagePath": "staticwebassets\\Pics\\GuineaPig.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\Guppy.jpeg",
+      "PackagePath": "staticwebassets\\Pics\\Guppy.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\Hamster.jpeg",
+      "PackagePath": "staticwebassets\\Pics\\Hamster.jpeg"
     },
     {
       "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\LeopardGecko.jpeg",
@@ -53,28 +69,24 @@
       "PackagePath": "staticwebassets\\Pics\\PetShopImage.jpeg"
     },
     {
+      "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\Poodle.jpeg",
+      "PackagePath": "staticwebassets\\Pics\\Poodle.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\Screenshot 2023-01-06 201343.png",
+      "PackagePath": "staticwebassets\\Pics\\Screenshot 2023-01-06 201343.png"
+    },
+    {
+      "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\Screenshot 2023-07-06 102520.png",
+      "PackagePath": "staticwebassets\\Pics\\Screenshot 2023-07-06 102520.png"
+    },
+    {
       "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\SiameseCat.jpeg",
       "PackagePath": "staticwebassets\\Pics\\SiameseCat.jpeg"
     },
     {
       "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\Untitled.png",
       "PackagePath": "staticwebassets\\Pics\\Untitled.png"
-    },
-    {
-      "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\aaa.jpg",
-      "PackagePath": "staticwebassets\\Pics\\aaa.jpg"
-    },
-    {
-      "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\aaaaa.jpeg",
-      "PackagePath": "staticwebassets\\Pics\\aaaaa.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\aadd.jpg",
-      "PackagePath": "staticwebassets\\Pics\\aadd.jpg"
-    },
-    {
-      "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\abc.jpeg",
-      "PackagePath": "staticwebassets\\Pics\\abc.jpeg"
     },
     {
       "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\ido.jpg",
@@ -87,6 +99,10 @@
     {
       "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\thisisMe.jpg",
       "PackagePath": "staticwebassets\\Pics\\thisisMe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\trip.jpg",
+      "PackagePath": "staticwebassets\\Pics\\trip.jpg"
     },
     {
       "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\libraries\\jquery-3.3.1.js",

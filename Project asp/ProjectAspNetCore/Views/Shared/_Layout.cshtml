@@ -14,15 +14,15 @@
     <link href="~/styles/site.css" rel="stylesheet" />
 </head>
 <body>
-   
-    <header>
-        @RenderSection("Header", required: false)
-    </header>
-   
+
     
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" asp-action="MostCommentedAnimals" asp-controller="Home">
-            <img src="~/Pics/PetShopImage.jpeg" width="30" height="30" class="d-inline-block align-top" alt="">Ido Pet Shop
+
+    <nav class="Nav navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="NavHead navbar-brand" style="color:beige">
+
+            <header>
+                <img src="~/Pics/PetShopImage.jpeg" width="30" height="30" class="d-inline-block align-top" alt="">@RenderSection("Header", required: false)
+            </header>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -57,7 +57,6 @@
     </div>
 
     <footer>
-
     </footer>
 
 </body>

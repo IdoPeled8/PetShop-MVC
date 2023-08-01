@@ -7,27 +7,37 @@
 @{
     ViewBag.Title = "MostCommentedAnimals";
 }
-
-@section Header{
-
-    <h5>two Most Commented Animals</h5>
+@section header{
+    Main page
 }
+<div class="container">
+    <div class="page-header text-center my-4">
+        <h1 class="display-4 bg-info text-white p-3 rounded">Most Commented Animals in the Shop</h1>
+        <p class="lead bg-light text-dark p-3 rounded">Check out the most popular animals based on comments!</p>
+    </div>
 
-<div class="text-danger">
-    @ViewBag.AccessDenied
-</div>
-<div class="card-container">
-    @foreach (var animal in Model)
-    {
-        <div class="card " style="width: 20rem;">
-            <img src="~/Pics/@animal.ImageName" class="card-img" alt="Animal Image" id="animalImage">
-            <div class="card-body">
-                <h5 class="card-title">Name: @animal.Name</h5>
-                <p class="card-text">Description: @animal.Description</p>
-                <p class="card-text"><small class="text-muted">Number of comments: @animal.Comments!.Count</small></p>
-                <a href="@Url.Action("AnimalInformation", "Animal", new { id = animal.AnimalId })" class="btn btn-outline-info">Full Details</a>
+    <div class="text-danger">
+        @ViewBag.AccessDenied
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-8">
+            <div class="card-container">
+                @foreach (var animal in Model.Take(2))
+                {
+                    <div class="card" style="width: 20rem;">
+                        <img src="~/Pics/@animal.ImageName" class="card-img" alt="Animal Image" id="animalImage">
+                        <div class="card-body">
+                            <h5 class="animalName card-title">@animal.Name</h5>
+                            <p class="animalDesc card-text"><strong>Description:<br /></strong> @animal.Description</p>
+                            <p class="card-text"><small class="text-muted">Number of comments: @animal.Comments!.Count</small></p>
+                            <a href="@Url.Action("AnimalInformation", "Animal", new { id = animal.AnimalId })" class="btn btn-outline-info">Full Details</a>
+                        </div>
+                    </div>
+                }
             </div>
         </div>
-    }
+    </div>
 </div>
+
 

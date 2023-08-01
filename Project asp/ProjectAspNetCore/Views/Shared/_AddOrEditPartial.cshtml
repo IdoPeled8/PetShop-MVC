@@ -43,7 +43,7 @@
 
                             <div class="form-group col-md-6">
                                 <label class="custom-file-label" for="imageInput">Serch For Image</label>
-                                <input type="file" class="custom-file-input" id="imageInput" name="imageFile" >
+                                <input type="file" class="custom-file-input" id="imageInput" name="imageFile" accept="image/*" >
                                 <input asp-for="ImageName" type="hidden" id="imageName" class="form-control">
                                 <span asp-validation-for="ImageName" class="text-danger"></span>
                                 @if (!string.IsNullOrEmpty(Model.ImageName))

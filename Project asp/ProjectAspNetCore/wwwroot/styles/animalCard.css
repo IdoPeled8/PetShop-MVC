@@ -6,7 +6,7 @@
 }
 
 .card {
-    border-radius: 15px; /* Remove rounded corners from the card */
+    border-radius: 15px;
     overflow: hidden;
     background-color: antiquewhite;
     margin: 15px;
@@ -19,8 +19,17 @@
 .card-container {
     display: flex;
     flex-wrap: wrap;
-    /*justify-content: space-between;*/
 }
 
-.card {
+
+.animalDesc {
+    font-family: 'Bold Art';
+    font-size: 17px;
+}
+
+.animalName {
+    font-size: 22px;
+    font-weight:bold;
+    font-family:'Arial Nova';
+    
 }

@@ -6,7 +6,7 @@
 
 
 @section Header{
-    <h3>Header</h3>
+   Register
 }
 
 <section class="vh-100">
@@ -31,7 +31,7 @@
                                 @await Component.InvokeAsync("LoginRegister")
                             </div>
                             <div class="form-outline mb-2">
-                                <input type="ConfirmPassword" asp-for="ConfirmPassword" id="confirmPassword" placeholder="Confirm Password" class="form-control form-control" />
+                                <input type="password"  asp-for="ConfirmPassword" id="confirmPassword" placeholder="Confirm Password" class="form-control form-control" />
                                 <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
                                 <span id="confirmPasswordError" class="text-danger"></span>
                             </div>
@@ -47,8 +47,6 @@
                             </div>
                         </form>
 
-                        <a href="#!" class="small text-muted">Terms of use. (put some stuff or delete)</a>
-                        <a href="#!" class="small text-muted">Privacy policy</a>
                         <hr class="my-4">
                     </div>
                 </div>
@@ -60,16 +58,26 @@
 
 <script>
     $(document).ready(function () {
-        $('#confirmPassword').on('input', function () {
+        // Function to check and update the submit button disabled state
+        function checkPasswords() {
             var password = $('#passwordInput').val();
-            var confirmPassword = $(this).val();
+            var confirmPassword = $('#confirmPassword').val();
             if (password === confirmPassword) {
                 $('#confirmPasswordError').text('');
-                $('#NewAnimalForm').find(':submit').prop('disabled', false); 
+                $('#NewAnimalForm').find(':submit').prop('disabled', false);
             } else {
                 $('#confirmPasswordError').text('Passwords do not match');
-                $('#NewAnimalForm').find(':submit').prop('disabled', true); 
+                $('#NewAnimalForm').find(':submit').prop('disabled', true);
             }
+        }
+
+        // Listen for 'input' event on password fields
+        $('#passwordInput, #confirmPassword').on('input', function () {
+            checkPasswords();
         });
+
+        // Call the checkPasswords function initially
+        checkPasswords();
     });
 </script>
+

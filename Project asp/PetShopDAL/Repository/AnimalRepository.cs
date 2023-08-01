@@ -16,7 +16,6 @@ public class AnimalRepository : IAnimalRepository/* , IMainRepository<Animals>*/
            .Include(a => a.Category)
            .Include(a => a.Comments)
            .OrderByDescending(a => a.Comments!.Count)
-           .Take(2)
            .ToListAsync();
 
         return animalsWithMostComments;

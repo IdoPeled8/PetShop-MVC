@@ -15,7 +15,6 @@ public class Animal
     public int Age { get; set; }
 
     [Required(ErrorMessage = "Image File is required.")]
-    [RegularExpression(@"^[\w\s]+\.(png|jpe?g)$", ErrorMessage = "Invalid image file.")]
     public string? ImageName { get; set; }
 
     [Required(ErrorMessage = "Description is required.")]
