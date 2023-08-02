@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "advamp2UARFUyqgp7sxq46qJ6DGWBymMjoGNR9ppygM=",
+  "Hash": "sC8muYnyN06pLJ95GKuaMeTW3P5soqAWHDqUZrFOhl4=",
   "Source": "ProjectAspNetCore",
   "BasePath": "_content/ProjectAspNetCore",
   "Mode": "Default",
@@ -1105,6 +1105,23 @@
       "OriginalItemSpec": "wwwroot\\libraries\\signalr.js"
     },
     {
+      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\33.jpg",
+      "SourceId": "ProjectAspNetCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\",
+      "BasePath": "_content/ProjectAspNetCore",
+      "RelativePath": "Pics/33.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Pics\\33.jpg"
+    },
+    {
       "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\BeardedDragon.jpeg",
       "SourceId": "ProjectAspNetCore",
       "SourceType": "Discovered",
@@ -1496,23 +1513,6 @@
       "OriginalItemSpec": "wwwroot\\Pics\\SiameseCat.jpeg"
     },
     {
-      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\thisisMe.jpg",
-      "SourceId": "ProjectAspNetCore",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\",
-      "BasePath": "_content/ProjectAspNetCore",
-      "RelativePath": "Pics/thisisMe.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Pics\\thisisMe.jpg"
-    },
-    {
       "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\trip.jpg",
       "SourceId": "ProjectAspNetCore",
       "SourceType": "Discovered",
@@ -1528,23 +1528,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Pics\\trip.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\Untitled.png",
-      "SourceId": "ProjectAspNetCore",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\",
-      "BasePath": "_content/ProjectAspNetCore",
-      "RelativePath": "Pics/Untitled.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Pics\\Untitled.png"
     },
     {
       "Identity": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\styles\\animalCard.css",

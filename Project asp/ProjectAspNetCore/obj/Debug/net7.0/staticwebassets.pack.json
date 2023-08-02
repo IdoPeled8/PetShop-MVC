@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\33.jpg",
+      "PackagePath": "staticwebassets\\Pics\\33.jpg"
+    },
+    {
       "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\BeardedDragon.jpeg",
       "PackagePath": "staticwebassets\\Pics\\BeardedDragon.jpeg"
     },
@@ -85,20 +89,12 @@
       "PackagePath": "staticwebassets\\Pics\\SiameseCat.jpeg"
     },
     {
-      "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\Untitled.png",
-      "PackagePath": "staticwebassets\\Pics\\Untitled.png"
-    },
-    {
       "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\ido.jpg",
       "PackagePath": "staticwebassets\\Pics\\ido.jpg"
     },
     {
       "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\lavrador.jpeg",
       "PackagePath": "staticwebassets\\Pics\\lavrador.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\thisisMe.jpg",
-      "PackagePath": "staticwebassets\\Pics\\thisisMe.jpg"
     },
     {
       "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\trip.jpg",

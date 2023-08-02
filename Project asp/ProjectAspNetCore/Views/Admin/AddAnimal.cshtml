@@ -2,8 +2,9 @@
 @{
     ViewBag.Title = "AddAnimal";
 }
-
+@section header{
 Add new animal
+}
 
 <   <form id="NewAnimalForm" method="post" asp-action="AddAnimal" asp-controller="Admin" class="needs-validation" enctype="multipart/form-data">
     <partial name="_AddOrEditPartial" model="Model" />

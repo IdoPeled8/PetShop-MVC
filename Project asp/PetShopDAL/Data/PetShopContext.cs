@@ -20,7 +20,6 @@ public class PetShopContext : DbContext
             new Category { CategoryId = 6, Name = "Rodents" }
         );
 
-        // Seed Animals
         modelBuilder.Entity<Animal>().HasData(
             new Animal { AnimalId = 1, Name = "Labrador Retriever", Age = 3, ImageName = "lavrador.jpeg", Description = "Friendly and outgoing. Labrador Retrievers are known for their friendly and outgoing personalities. They are great family pets and are often used as service dogs due to their intelligence and trainability.", CategoryId = 1 },
             new Animal { AnimalId = 2, Name = "Persian Cat", Age = 5, ImageName = "PersianCat.jpeg", Description = "Calm and gentle. Persian cats are known for their calm and gentle personalities. They have long, luxurious fur and are often considered one of the most beautiful cat breeds.", CategoryId = 2 },
@@ -42,7 +41,6 @@ public class PetShopContext : DbContext
             new Animal { AnimalId = 18, Name = "Guinea Pig", Age = 3, ImageName = "GuineaPig.jpeg", Description = "Social and vocal. Guinea pigs are small rodents that are known for their social personalities and vocal nature. They enjoy the company of other guinea pigs and humans and make great pets for families.", CategoryId = 6 }
 
         );
-        // Seed Comments
         modelBuilder.Entity<Comment>().HasData(
             new Comment { CommentId = 1, AnimalId = 10, CommentText = "This Labrador is so adorable!" },
             new Comment { CommentId = 2, AnimalId = 10, CommentText = "I love playing fetch with this dog." },

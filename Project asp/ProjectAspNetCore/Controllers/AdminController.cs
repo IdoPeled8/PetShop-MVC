@@ -1,6 +1,4 @@
 ﻿
-using PetShopModels;
-
 namespace ProjectAspNetCore.Controllers;
 
 [Authorize(Roles

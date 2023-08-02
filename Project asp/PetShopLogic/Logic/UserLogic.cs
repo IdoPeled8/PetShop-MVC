@@ -50,7 +50,6 @@ namespace PetShopLogic
 
             await CreateRolesAsync();
 
-            // Create and assign users to roles
             foreach (var userData in userRoleData)
             {
                 var user = new IdentityUser { UserName = userData.UserName };

@@ -1,6 +1,4 @@
-﻿
-namespace ProjectAspNetCore.Controllers;
-
+﻿namespace ProjectAspNetCore.Controllers;
 
 public class HomeController : Controller
 {
