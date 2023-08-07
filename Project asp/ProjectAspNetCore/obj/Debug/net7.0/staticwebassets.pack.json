@@ -89,6 +89,14 @@
       "PackagePath": "staticwebassets\\Pics\\SiameseCat.jpeg"
     },
     {
+      "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\WhatsApp Image 2023-07-27 at 11.44.17.jpg",
+      "PackagePath": "staticwebassets\\Pics\\WhatsApp Image 2023-07-27 at 11.44.17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\WhatsApp Image 2023-07-27 at 11.45.34.jpg",
+      "PackagePath": "staticwebassets\\Pics\\WhatsApp Image 2023-07-27 at 11.45.34.jpg"
+    },
+    {
       "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\Pics\\ido.jpg",
       "PackagePath": "staticwebassets\\Pics\\ido.jpg"
     },
@@ -115,6 +123,10 @@
     {
       "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\libraries\\signalr.js",
       "PackagePath": "staticwebassets\\libraries\\signalr.js"
+    },
+    {
+      "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\scripts\\tryScripts.js",
+      "PackagePath": "staticwebassets\\scripts\\tryScripts.js"
     },
     {
       "Id": "C:\\Users\\idop9\\OneDrive\\Desktop\\Full Course Sela\\ASP,net\\Project\\PetShop-MVC\\Project asp\\ProjectAspNetCore\\wwwroot\\styles\\animalCard.css",

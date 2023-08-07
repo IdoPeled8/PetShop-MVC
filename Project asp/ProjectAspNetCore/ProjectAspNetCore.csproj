@@ -22,8 +22,4 @@
     <ProjectReference Include="..\PetShopModels\PetShopModels.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="wwwroot\scripts\" />
-  </ItemGroup>
-
 </Project>

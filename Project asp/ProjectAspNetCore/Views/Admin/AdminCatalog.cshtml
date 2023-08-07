@@ -35,14 +35,10 @@
 @await Component.InvokeAsync("CatalogAdmin",ViewBag.PageAndId)
 
 <script>
-    //signalR msg sent
+    //start hub
     var connection = new signalR.HubConnectionBuilder()
-        .withUrl("/chathub")
+        .withUrl("/Mainhub")
         .build();
-
-    connection.on("NewMessage", (userName, message, sendTime) => {
-        $("#chatLog").html($("#chatLog").html() + sendTime + " - " + userName + ": " + message + "<br/>");
-    });
 
     connection.start().catch(err => console.error(err.toString()));
 
@@ -53,22 +49,27 @@
         }
     });
 
+    //sent message to method
+    $("#all").click(function () {
+        var message = $("#message").val();
+        var userName = '@User.Identity!.Name';
+
+        if (message.trim() !== '') {
+            OnMessageAdmin(message, userName)
+        }
+        $("#message").val('');
+    });
+
+    //chat message template
+    connection.on("NewMessage", (userName, message, sendTime) => {
+        $("#chatLog").html($("#chatLog").html() + sendTime + " - " + userName + ": " + message + "<br/>");
+    });
+
     $(document).ready(function () {
         $("#openChat").click(function () {
             $("#chatContainer").toggleClass("d-none");
         });
     });
-
-    $("#all").click(function () {
-        var userName = '@ViewBag.user';
-        var message = $("#message").val();
-        var sendTime = ''
-        if (message.trim() !== '') {
-            connection.invoke("MessageAll", userName, message, sendTime);
-        }
-        $("#message").val('');
-    });
-
 
     document.getElementById("categoryDropdown").addEventListener("change", function () {
         document.getElementById("filterForm").submit();

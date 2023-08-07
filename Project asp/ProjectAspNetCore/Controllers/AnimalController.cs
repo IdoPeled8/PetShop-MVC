@@ -35,7 +35,7 @@ public class AnimalController : Controller
             }
             await _animalLogic.AddCommentToAnimalAsync(commentText, animalId);
 
-            return PartialView("_CommentsPartial", animal);
+            return View("AnimalInformation", animal);
         }
         return BadRequest();
     }
@@ -44,8 +44,10 @@ public class AnimalController : Controller
     {
         if (ModelState.IsValid)
         {
+            var animal = await _animalLogic.GetAnimalByIdAsync(animaLId);
             await _commentLogic.DeleteCommentAsync(commentId);
+            return View("AnimalInformation", animal);
         }
-        return RedirectToAction("AnimalInformation", new { id = animaLId });
+        return BadRequest();
     }
 }

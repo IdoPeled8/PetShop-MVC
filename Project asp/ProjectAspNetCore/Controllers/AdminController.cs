@@ -17,7 +17,7 @@ public class AdminController : Controller
 
     public IActionResult AdminCatalog(int? categoryId)
     {
-        ViewBag.user = User.Identity!.Name;
+       // ViewBag.user = User.Identity!.Name;
         var pageAndId = new Tuple<string, int?>("admin", categoryId);
         ViewBag.PageAndID = pageAndId;
         return View();
