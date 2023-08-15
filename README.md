@@ -47,6 +47,7 @@ Admin users can manage animals and categories through the admin panel.
 Engage in real-time chat with other users using the chat feature.
 
 Admin Username:ido
+
 Admin Password:Ido123@
 
 # Contributing
