@@ -4,8 +4,11 @@ It allows users to browse and interact with various animals in a pet shop, leave
 
 # Features
 Browse and view detailed information about different animals in the pet shop.
+
 Leave comments on animal profiles to share thoughts and feedback.
+
 Real-time chat functionality using SignalR, enabling admins to communicate and get updates instantly.
+
 Admin panel for managing animals and categories.
 User authentication and role-based authorization for different actions.
 Responsive design for optimal user experience across devices.
