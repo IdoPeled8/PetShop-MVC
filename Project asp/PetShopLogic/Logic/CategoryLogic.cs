@@ -15,7 +15,7 @@
 
         public async Task<Category?> GetCategoryByNameAsync(string name) => await _categoryRepository.GetByNameAsync(name);
 
-        public async Task AddCategoryAsync(string categoryName) => await _categoryRepository.AddAsync(categoryName);
+        public async Task AddCategoryAsync(Category categoryName) => await _categoryRepository.AddAsync(categoryName);
 
         public async Task UpdateCategoryAsync(Category category) => await _categoryRepository.UpdateAsync(category);
 

@@ -2,7 +2,7 @@
 
 namespace PetShopDAL.Repository;
 
-public class AnimalRepository : IAnimalRepository/* , IMainRepository<Animals>*/
+public class AnimalRepository : IAnimalRepository
 {
     PetShopContext _petShopContext;
 
@@ -21,7 +21,6 @@ public class AnimalRepository : IAnimalRepository/* , IMainRepository<Animals>*/
         return animalsWithMostComments;
 
     }
- 
 
     public async Task<Animal> GetByIdAsync(int id)
     {
@@ -81,4 +80,6 @@ public class AnimalRepository : IAnimalRepository/* , IMainRepository<Animals>*/
             await _petShopContext.SaveChangesAsync();
         }
     }
+
+   
 }

@@ -27,9 +27,9 @@ namespace PetShopDAL.Repository
         {
             return await _petShopContext.Categories!.FirstAsync(C => C.CategoryId == id);
         }
-        public async Task AddAsync(string categoryName)
+        public async Task AddAsync(Category newCategory)
         {
-            await _petShopContext.Categories!.AddAsync(new Category { Name = categoryName });
+            await _petShopContext.Categories!.AddAsync(newCategory);
             await _petShopContext.SaveChangesAsync();
 
         }

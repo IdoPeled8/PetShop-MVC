@@ -17,7 +17,7 @@ public class AdminController : Controller
 
     public IActionResult AdminCatalog(int? categoryId)
     {
-       // ViewBag.user = User.Identity!.Name;
+        // ViewBag.user = User.Identity!.Name;
         var pageAndId = new Tuple<string, int?>("admin", categoryId);
         ViewBag.PageAndID = pageAndId;
         return View();
@@ -49,7 +49,7 @@ public class AdminController : Controller
         var res = await _categoryLogic.GetCategoryByNameAsync(newCategoryName);
         if (res == null)
         {
-            await _categoryLogic.AddCategoryAsync(newCategoryName);
+            await _categoryLogic.AddCategoryAsync(new Category() { Name = newCategoryName });
             TempData["succeededMessages"] = UiMessages.categoryAdded;
         }
         else
